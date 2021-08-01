@@ -1,2 +1,2 @@
-# ssac-web--fullstack
+# ssac-web-fullstack
 SSAC Web Full-Stack 3기
