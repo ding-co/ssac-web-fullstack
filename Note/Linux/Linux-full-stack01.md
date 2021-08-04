@@ -57,7 +57,7 @@
 
 ### [과제]
 
-1. NCloud 가입 => 결제 수단 등록 (카카오 뱅크) `[✔]`
+1. NCloud 가입 => 결제 수단 등록 `[✔]`
 2. PC setting
    - Windows PC: putty 설치 `[✔]`
    - docker 설치 `[✔]`
