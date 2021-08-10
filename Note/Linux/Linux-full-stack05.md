@@ -104,7 +104,8 @@ systemctl stop mysqld
 
 ## [과제]
 
-1. 무료 도메인 신청 -> 공인 IP로 DNS Setting
+1. 무료 도메인 신청 -> 공인 IP로 DNS Setting `[✔]` <br/>
+   => ding-co.tk
 2. PC setting
    - docker 설치 `[✔]`
    - MySQL Workbench 설치 `[✔]`
