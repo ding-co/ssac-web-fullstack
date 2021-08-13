@@ -175,6 +175,4 @@ tail -f cert.log
 
 #
 
-## [Reference]
-
 [Reference](https://www.youtube.com/watch?v=s788gZ-cNj8&list=PLEOnZ6GeucBVj0V5JFQx_6XBbZrrynzMh&index=15)

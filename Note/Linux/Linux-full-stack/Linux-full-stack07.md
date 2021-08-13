@@ -77,8 +77,6 @@ nginx
 # network - localhost - clear browser cache
 ```
 
-<br/>
-
 #
 
 ### [Note]
@@ -91,7 +89,5 @@ nginx
 - image commit (이미지 구워놓기)
 
 #
-
-## [Reference]
 
 [Reference](https://www.youtube.com/watch?v=K_fCYjjZneo&list=PLEOnZ6GeucBVj0V5JFQx_6XBbZrrynzMh&index=16)

@@ -83,8 +83,6 @@ systemctl stop mysqld
 - ip는 공인 아이피
 - password는 8자 이상, 대문자 포함
 
-<br/>
-
 #
 
 ### [Note]
@@ -112,7 +110,5 @@ systemctl stop mysqld
    - Github 가입 `[✔]`
 
 #
-
-## [Reference]
 
 [Reference](https://www.youtube.com/watch?v=dJU7VARhCqE&list=PLEOnZ6GeucBVj0V5JFQx_6XBbZrrynzMh&index=14)

@@ -31,10 +31,8 @@
 - 공인 ip (SSH 접속 서버 IP)
 - https://berryservice.net/ipaddress (실제 IP 주소 나옴)
 - UDP; 내부에서만 들어오게 함, 관리용
-- 플라스크와 노드는 보안상 안열음 -> 포트포워딩
+- 플라스크와 노드는 보안상 열지 않음 -> 포트포워딩
 
 #
-
-## [Reference]
 
 [Reference](https://www.youtube.com/watch?v=HCMXDPYXd9g&list=PLEOnZ6GeucBVj0V5JFQx_6XBbZrrynzMh&index=11)

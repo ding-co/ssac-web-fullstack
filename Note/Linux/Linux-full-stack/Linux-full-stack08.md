@@ -5,10 +5,10 @@
 ```docker
 docker ps -a
 docker start mydealdev
-alias dp='docker ps -a' # 안되면 '' 빼고 하면 됨
+alias dp='docker ps -a' # 안되면 '' 빼고 하면 됨 (윈도우)
 dp
 
-# 영구적으로 alias 설정
+# 영구적으로 alias 설정 (맥)
 vi .profile
 . .profile
 
@@ -17,27 +17,25 @@ clear # Ctrl + L
 
 docker attach mydealdev
 
-[root@mydealdev /]# pwd
-[root@mydealdev /]# ps -ef | grep nginx
-
-[root@mydealdev /]# curl https://get.volta.sh | bash
-[root@mydealdev /]# volta
-[root@mydealdev /]# volta install node@14
-[root@mydealdev /]# volta install pm2
-[root@mydealdev /]# yum install python3 -y
-[root@mydealdev /]# node -v
-[root@mydealdev /]# npm -v
-[root@mydealdev /]# pip3 --version
-[root@mydealdev /]# python3 --version
+pwd
+ps -ef | grep nginx
+curl https://get.volta.sh | bash
+volta
+volta install node@14
+volta install pm2
+yum install python3 -y
+node -v
+npm -v
+pip3 --version
+python3 --version
 
 # 이미지 굽기
-[root@mydealdev /]# nginx
-[root@mydealdev /]# cd /etc/nginx/
-[root@mydealdev /]# ll
-[root@mydealdev /]# alias ll=ls -al
-[root@mydealdev /]# ll
-
-[root@mydealdev /]# vi nginx.conf
+nginx
+cd /etc/nginx/
+ll
+alias ll=ls -al
+ll
+vi nginx.conf
 
 # server {
 
@@ -45,22 +43,17 @@ docker attach mydealdev
 # root    /home/workspace/www/mydeal;
 # }
 
-# :wq
-
-[root@mydealdev /]# ncloud
-[root@mydealdev /]# clear
-[root@mydealdev /]# ll /var
-
-[root@mydealdev /]# mkdir -p /home/workspace/www/mydeal
-[root@mydealdev /]# vi /home/workspace/www/mydeal/index.html
+ncloud
+clear
+ll /var
+mkdir -p /home/workspace/www/mydeal
+vi /home/workspace/www/mydeal/index.html
 
 # This is Mydeal local nginx!!
 
-# :wq
-
-[root@mydealdev /]# nginx -s reload
-[root@mydealdev /]# ll conf.d
-[root@mydealdev /]# vi conf.d/local.conf
+nginx -s reload
+ll conf.d
+vi conf.d/local.conf
 
 # server {
 #       listen 80;
@@ -73,12 +66,11 @@ docker attach mydealdev
 #     }
 # }
 
-# :wq
-
 # local pc에 도메인 등록
 # 윈도우 - C:\\Windows\System32\drivers\etc\hosts
 # 알약 환경설정 호스트 보호 해제하고 메모장 관리자 권한 실행하여 수정하기
 
+# (맥)
 sudo vi /etc/hosts
 
 vi nginx.conf
@@ -159,9 +151,8 @@ date
 # 들어왔을 때 nginx 바로 떠있도록 하기
 vi ~/.bashrc
 
-# 맨 아래
+# 맨 아래에 코드 2줄 추가
 # nginx
-
 # cd
 
 . ~/.bashrc
@@ -193,7 +184,7 @@ ncloud
 pwd
 vi check.txt
 
-#Ncloud Ok!
+# Ncloud Ok!
 
 pwd
 exit

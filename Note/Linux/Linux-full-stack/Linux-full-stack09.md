@@ -16,7 +16,7 @@
    - .bashrc 수정
    - timezone 설정 (Seoul)
 
-3. rsync workflow (rsync 파일 주고 받기 위한 용도)
+3. rsync workflow (rsync는 파일 주고 받기 위한 용도)
    - Ncloud - 실제 서비스 서버
      - rsync daemon 띄우기
    - docker(mydealdev)

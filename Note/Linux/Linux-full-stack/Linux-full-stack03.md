@@ -55,6 +55,4 @@ enabled=1
 
 #
 
-## [Reference]
-
 [Reference](https://www.youtube.com/watch?v=WSGuy2QiESw&list=PLEOnZ6GeucBVj0V5JFQx_6XBbZrrynzMh&index=12)
