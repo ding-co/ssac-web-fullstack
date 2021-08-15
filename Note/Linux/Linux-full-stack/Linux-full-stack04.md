@@ -15,9 +15,9 @@
 - ls -al (user, group 나옴)
 - ls -l (ll)
 - .으로 시작하는 파일 (설정 파일)
-- ~ (root) 에다가 설치해야 함
+- ~ (root, 나의 홈 폴더) 에다가 설치해야 함
 - cat .bash_profile (bash 쉘의 기본 설정 파일)
-- source 아니면 . 을 이용하여 실행
+- source 아니면 . 을 이용하여 실행 (메모리에 올라가야 실행됨)
 - . .bash_profile
 - echo $VOLTA_HOME
 - ll .volta/
@@ -41,8 +41,6 @@ python 설치
 - yum install python3 -y (-y: 묻지마)
 - python3 --version
 
-<br/>
-
 #
 
 ### [Note]
@@ -54,7 +52,7 @@ python 설치
 - curl (저 url에서 content 가져다 줌)
 - #! (선언)
 - command는 format을 줄 수 있음 (echo랑 비슷)
-- npm; 모듈 설치
+- npm; 모듈 설치 (express 등)
 
 #
 
