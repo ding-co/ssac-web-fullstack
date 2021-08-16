@@ -6,6 +6,8 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 `[Deep-dive JS]`
 
+- 1회독 진행중... 🏃‍♂️
+
 > [ch01 - 프로그래밍](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch01.md)
 
 > [ch02 - 자바스크립트란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch02.md)
@@ -108,6 +110,8 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 `[Leraning React]`
 
+- 1회독 진행중... 🏃‍♂️
+
 > [ch01 - 리액트 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch01.md)
 
 > [ch02 - 리액트를 위한 자바스크립트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch02.md)
@@ -138,7 +142,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 #
 
-## Online Lectures
+## 🚴‍♀️ Online Lectures 🚴‍♀️
 
 `[Linux]`
 
