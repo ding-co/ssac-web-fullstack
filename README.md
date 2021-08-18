@@ -179,3 +179,11 @@ SSAC Web Full-Stack 3기 (예습&복습)
 <br/>
 
 `[MySQL]`
+
+`[JavaScript]`
+
+> [풀스택#1 - JS 제대로 배우기 소개](#)
+
+> [풀스택#2 - JS VSCode 세팅, 유용한 Extension 설치, 단축키](#)
+
+> [풀스택#3 - JS 변수, 상수, 데이터 타입, 호이스팅, 스코프 체인](#)
