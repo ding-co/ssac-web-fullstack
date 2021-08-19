@@ -136,10 +136,6 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > [ch12 - 리액트와 서버](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch12.md)
 
-<br/>
-
-`[Material UI]`
-
 #
 
 ## 🚴‍♀️ Online Lectures 🚴‍♀️
@@ -148,31 +144,31 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > [풀스택#1 - Linux, Cloud, Serverless 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack01.md)
 
-> [풀스택#2 - NCP(Naver Cloud Platform) CentOS 서버 생성 및 설정](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack02.md))
+> [풀스택#2 - NCP(Naver Cloud Platform) CentOS 서버 생성 및 설정](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack02.md)
 
-> [풀스택#3 - Linux CentOS7에 Nginx 웹서버 설치하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack03.md))
+> [풀스택#3 - Linux CentOS7에 Nginx 웹서버 설치하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack03.md)
 
-> [풀스택#4 - Linux 서버에 Volta, node, pm2, python 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack04.md))
+> [풀스택#4 - Linux 서버에 Volta, node, pm2, python 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack04.md)
 
-> [풀스택#5 - CentOS7에 MySQL8 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack05.md))
+> [풀스택#5 - CentOS7에 MySQL8 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack05.md)
 
-> [풀스택#6 - Nginx 셋팅 및 무료 HTTPS 인증서 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack06.md))
+> [풀스택#6 - Nginx 셋팅 및 무료 HTTPS 인증서 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack06.md)
 
-> [풀스택#7 - docker image 만들기 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack07.md))
+> [풀스택#7 - docker image 만들기 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack07.md)
 
-> [풀스택#8 - docker image 만들기 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack08.md))
+> [풀스택#8 - docker image 만들기 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack08.md)
 
-> [풀스택#9 - docker image 만들기 정리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack09.md))
+> [풀스택#9 - docker image 만들기 정리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack09.md)
 
-> [풀스택#10 - Linux 명령어와 쉘 스크립트 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack10.md))
+> [풀스택#10 - Linux 명령어와 쉘 스크립트 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack10.md)
 
-> [풀스택#11 - Linux 명령어와 쉘 스크립트 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack11.md))
+> [풀스택#11 - Linux 명령어와 쉘 스크립트 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack11.md)
 
-> [풀스택#12 - 실무에서 꼭 필요한 기술 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack12.md))
+> [풀스택#12 - 실무에서 꼭 필요한 기술 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack12.md)
 
-> [풀스택#13 - 실무에서 꼭 필요한 기술 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack13.md))
+> [풀스택#13 - 실무에서 꼭 필요한 기술 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-full-stack/Linux-full-stack13.md)
 
-> [Tip#1 - 쉘 스크립트에 프로다운 우아한 옵션 주기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-tip/Linux-tip01.md))
+> [Tip#1 - 쉘 스크립트에 프로다운 우아한 옵션 주기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-tip/Linux-tip01.md)
 
 > [Tip#2 - 쉘 스크립트를 시스템 명령으로 등록](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-tip/Linux-tip02.md)
 
@@ -186,4 +182,4 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > [풀스택#2 - JS VSCode 세팅, 유용한 Extension 설치, 단축키](#)
 
-> [풀스택#3 - JS 변수, 상수, 데이터 타입, 호이스팅, 스코프 체인](#)
+> [풀스택#3 - JS 변수, 상수, 데이터 타입, 호이스팅, 스코프 체인](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack03.md)
