@@ -260,7 +260,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 `[JavaScript]`
 
-> - [ ] [풀스택#1 - JS 제대로 배우기 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack01.md)
+> - [x] [풀스택#1 - JS 제대로 배우기 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack01.md)
 
 > - [ ] [풀스택#2 - JS VSCode 세팅, 유용한 Extension 설치, 단축키](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack02.md)
 
@@ -281,3 +281,5 @@ SSAC Web Full-Stack 3기 (예습&복습)
 > - [ ] [21_08_14_01 Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_01.md)
 
 > - [ ] [21_08_14_02 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_02.md)
+
+> - [x] [21_08_14_03 NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_03.md)
