@@ -128,6 +128,4 @@ ln -s 목적지 이름
 
 #
 
-## [Reference]
-
 [Reference](https://www.youtube.com/watch?v=ca9e1BDAKsc&list=PLEOnZ6GeucBVj0V5JFQx_6XBbZrrynzMh&index=19)

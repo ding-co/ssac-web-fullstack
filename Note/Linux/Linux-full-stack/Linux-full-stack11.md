@@ -369,7 +369,7 @@ ps -ef | grep cron
 
 # cron daemon 띄우기
 
-# init d로 실행한 게 아니라서 안됨
+# init.d로 실행한 게 아니라서 안됨
 systemctl start crond
 
 crond start/stop
@@ -394,6 +394,33 @@ while true; do ll; sleep 1; done
 
 #
 
-## [Reference]
+### [Q&A]
+
+1. 도커를 init.d로 실행시킨 게 아니기 때문에 Host is down이 뜬다는 게 어떤 의미? <br/>
+
+   => 리눅스 시스템을 정상(물리)적으로 구동(booting)했다면 리눅스가 시작될 때 init.d 데몬으로 구동됨 <br/>
+   하지만 docker를 이용하여 가상(논리적)로 리눅스를 구동했기 때문에 init.d 데몬으로 구동된 게 아님 <br/>
+   systemctl은 init.d로 구동된 리눅스 시스템에서 사용할 수 있음
+
+2. `crond stop` 시 오류 <br/>
+   crond: can't lock /var/run/crond.pid, otherpid may be 66: Resource temporarily unavailable <br/>
+
+   => crond.pid 파일을 특정 프로세스가 붙들고(사용중에) 있는 듯 <br/>
+   `ps -ef` 해보고 해당 프로세스를 kill 해야 함 <br/>
+   안되면 `killall -9 crond` <br/>
+   그래도 안되면 `systemctl stop crond`
+
+3. 말씀해주신 대로 `ps -ef`로 프로세스 상태를 확인해보니 crond start가 떠있었습니다. <br/>
+   그래서 그 프로세스의 id를 kill 해서 crond 데몬 구동을 중지했습니다. <br/>
+   그런데 매번 crond 데몬을 중지하기 위해서 일일이 `ps -ef`로 프로세스의 id를 파악하고 <br/>
+   kill을 하는 것이 번거롭다고 생각됩니다. .bashrc 파일에 alias를 걸어서 해결할 수 있을 듯 싶은데 <br/>
+   근데 매번 달라지는 프로세스 id를 추적하는 것이 어려워서 <br/>
+   혹시 다른 좋은 방법이나 `crond stop` 명령어로 셋팅하는 방법이 있을까요? <br/>
+
+   => crond는 중지하거나 재시작할 일이 거의 없음 <br/>
+   지속적으로 돌고 있어야 cron임! <br/>
+   한번 시작해 놓으면 영원히(?) 도는 느낌으로~
+
+#
 
 [Reference](https://www.youtube.com/watch?v=XYnqdjF0q2A&list=PLEOnZ6GeucBVj0V5JFQx_6XBbZrrynzMh&index=20)
