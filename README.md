@@ -198,9 +198,9 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [MySQL 01 - Database 및 User 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL01.md)
 
-> - [ ] [MySQL 02 - Table 생성, 한글 설정, Session 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL02.md)
+> - [x] [MySQL 02 - Table 생성, 한글 설정, Session 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL02.md)
 
-> - [ ] [MySQL 03 - Table Altering, Sample Data 자동 등록](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL03.md)
+> - [x] [MySQL 03 - Table Altering, Sample Data 자동 등록](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL03.md)
 
 > - [ ] [MySQL 04 - Insert, Select, Update, Delete 문](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL04.md)
 
