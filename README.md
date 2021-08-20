@@ -202,7 +202,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [MySQL 03 - Table Altering, Sample Data 자동 등록](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL03.md)
 
-> - [ ] [MySQL 04 - Insert, Select, Update, Delete 문](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL04.md)
+> - [x] [MySQL 04 - Insert, Select, Update, Delete 문](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL04.md)
 
 > - [ ] [MySQL 05 - 관계(Foreign Key)와 index의 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL05.md)
 
