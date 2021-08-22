@@ -204,11 +204,11 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [MySQL 04 - Insert, Select, Update, Delete 문](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL04.md)
 
-> - [ ] [MySQL 05 - 관계(Foreign Key)와 index의 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL05.md)
+> - [x] [MySQL 05 - 관계(Foreign Key)와 index의 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL05.md)
 
 > - [ ] [MySQL 06 - Join Tables 테이블 조인하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL06.md)
 
-> - [ ] [MySQL 07 - 내장함수와 트랜잭션](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL07.md)
+> - [x] [MySQL 07 - 내장함수와 트랜잭션](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL07.md)
 
 > - [ ] [MySQL 08 - 연습문제 풀이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL08.md)
 
@@ -271,6 +271,8 @@ SSAC Web Full-Stack 3기 (예습&복습)
 `[Tip & Talk]`
 
 > - [ ] [Tip & Talk 01 - 왜 풀스택인가? (개발자 커리어 패스)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk01.md)
+
+> - [x] [Tip & Talk 02 - 변수 선언과 GC의 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
 
 #
 
