@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Open+Sans:wght@300&family=Rampart+One&display=swap');
+
+@import './reset.css';
+
+/* Screens */
+@import './screens/baseball.css';
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}

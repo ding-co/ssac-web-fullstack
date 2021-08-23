@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baseball-Game</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/baseball.js"></script>
+  </head>
+  <body>
+    <main id="baseball-game">
+      <span class="baseball-game__title">Number Baseball Game</span>
+      <section class="baseball-game__buttons">
+        <button class="baseball-game__start">start</button>
+        <button class="baseball-game__reset">reset</button>
+        <!-- To Do: History button -->
+      </section>
+      <form id="baseball-form" class="hidden">
+        <label>
+          <span class="baseball-form__title">Guess 3 Numbers!</span>
+          <input
+            class="baseball-form__text"
+            type="text"
+            required
+            minlength="3"
+            maxlength="3"
+          />
+        </label>
+        <span class="baseball-form__guess"></span>
+        <span class="baseball-form__result"></span>
+      </form>
+    </main>
+  </body>
+</html>

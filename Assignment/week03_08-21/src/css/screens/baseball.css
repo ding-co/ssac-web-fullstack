@@ -1,0 +1,77 @@
+#baseball-game {
+  padding: 50px;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.baseball-game__title {
+  text-align: center;
+  font-family: 'Rampart One', cursive;
+  font-weight: 600;
+  font-size: 25px;
+  color: green;
+}
+
+.baseball-game__buttons {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.baseball-game__buttons button {
+  margin: 0 25px;
+  padding: 5px;
+  width: 60px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: whitesmoke;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-family: 'Klee One', cursive;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.baseball-game__buttons button:active {
+  transform: scale(0.95);
+}
+
+#baseball-form label {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.baseball-form__title {
+  font-size: 20px;
+}
+
+.baseball-form__text {
+  margin: 30px 0;
+  width: 160px;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.baseball-form__text:focus {
+  outline: 0;
+}
+
+.baseball-form__guess,
+.baseball-form__result {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
