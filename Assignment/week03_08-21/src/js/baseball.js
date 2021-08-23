@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
       answer = createAnswer();
       alert('게임을 시작하겠습니다.');
       console.log(answer);
-    } else if (answer === guessNumber || round > 9) {
+    } else if (answer === guessNumber || round > 9 || out === 3) {
       alert('이미 게임이 끝났습니다.');
       console.log(answer);
     } else {
