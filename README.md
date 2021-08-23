@@ -285,3 +285,11 @@ SSAC Web Full-Stack 3기 (예습&복습)
 > - [ ] [21_08_14_02 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_02.md)
 
 > - [x] [21_08_14_03 NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_03.md)
+
+> - [ ] [21_08_21_01 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_21_01.md)
+
+`[Assignment]`
+
+> - [x] [Week 02 Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
+
+> - [x] [Week 03 Assignment - JavaScript](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)

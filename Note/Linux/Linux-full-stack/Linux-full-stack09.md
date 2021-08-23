@@ -22,7 +22,7 @@
    - Ncloud - 실제 서비스 서버
      - rsync daemon 띄우기
    - docker(mydealdev)
-     - rsync 사용 (왼쪽 출발지, 오른쪽 도차지)
+     - rsync 사용 (왼쪽 출발지, 오른쪽 도착지)
 
 ```linux
 # mydealimg.tar 다운 받기

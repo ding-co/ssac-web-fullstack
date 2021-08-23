@@ -35,7 +35,7 @@
 
 - [css/styles.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/styles.css)
 
-- [css/reset.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/reset.css)
+- [css/reset.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/reset.css)
 
 - [css/screens/baseball.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/screens/baseball.css)
 
