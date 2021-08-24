@@ -20,7 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const numberCandidate = new Set();
     while (answer.length !== 3) {
       const element = Math.floor(Math.random() * 10);
-      if (numberCandidate.has(element)) continue;
+      if (numberCandidate.has(element)) {
+        continue;
+      }
       numberCandidate.add(element);
       answer += element.toString();
     }
@@ -35,25 +37,25 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(answer);
     } else if (answer === guessNumber || round > 9 || out === 3) {
       alert('이미 게임이 끝났습니다.');
-      console.log(answer);
     } else {
       alert('이미 게임이 시작되었습니다.');
-      console.log(answer);
     }
   };
 
   const handleResetBtn = function () {
-    // To Do: 새로고침 안하고 form만 초기화 하면서 hidden add하기
     window.location.reload();
   };
 
   const checkNumber = function (number = '') {
     const guessSet = new Set(number);
-    if (guessSet.size === 3) {
-      return true;
+    if (isNaN(Number(guessNumber))) {
+      alert('숫자만 입력해주세요!');
+      return false;
+    } else if (guessSet.size !== 3) {
+      alert('중복된 숫자가 있습니다!');
+      return false;
     }
-    alert('중복된 숫자가 있습니다!');
-    return false;
+    return true;
   };
 
   const checkStrike = function (number = '') {
@@ -101,13 +103,13 @@ document.addEventListener('DOMContentLoaded', () => {
       out = checkOut(guessNumber);
 
       if (guessNumber === answer && strike === 3) {
-        resultGuess.textContent = '';
+        resultGuess.textContent = `Yeah, the answer was ${answer}.`;
         resultRound.textContent = 'You win!';
       } else if (round <= 9 && out < 3) {
         resultGuess.textContent = `Your Guess Number is ${guessNumber}`;
         resultRound.textContent = `Round ${round}: ${strike} Strike | ${ball} Ball | ${out} Out`;
       } else {
-        resultGuess.textContent = '';
+        resultGuess.textContent = `Sorry, the answer was ${answer}.`;
         resultRound.textContent = 'You lose!';
       }
     }
