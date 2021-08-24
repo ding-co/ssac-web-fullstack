@@ -28,13 +28,13 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [ch11 - 원시 값과 객체의 비교](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch11.md)
 
-> - [ ] [ch12 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch12.md)
+> - [x] [ch12 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch12.md)
 
-> - [ ] [ch13 - 스코프](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch13.md)
+> - [x] [ch13 - 스코프](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch13.md)
 
-> - [ ] [ch14 - 전역 변수의 문제점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch14.md)
+> - [] [ch14 - 전역 변수의 문제점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch14.md)
 
-> - [ ] [ch15 - let, const 키워드와 블록 레벨 스코프](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch15.md)
+> - [] [ch15 - let, const 키워드와 블록 레벨 스코프](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch15.md)
 
 > - [ ] [ch16 - 프로퍼티 어트리뷰트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch16.md)
 
@@ -206,7 +206,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [MySQL 05 - 관계(Foreign Key)와 index의 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL05.md)
 
-> - [ ] [MySQL 06 - Join Tables 테이블 조인하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL06.md)
+> - [x] [MySQL 06 - Join Tables 테이블 조인하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL06.md)
 
 > - [x] [MySQL 07 - 내장함수와 트랜잭션](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL07.md)
 
