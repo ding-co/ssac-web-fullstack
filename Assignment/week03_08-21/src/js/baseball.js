@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let answer = '';
   let guessNumber = '';
-
   let round = 0;
   let strike = 0;
   let ball = 0;
@@ -42,8 +41,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
+  const init = function () {
+    inputForm.classList.add(HIDDEN_CLASS);
+    inputGuess.value = '';
+    resultGuess.textContent = '';
+    resultRound.textContent = '';
+    answer = '';
+    guessNumber = '';
+    round = 0;
+    strike = 0;
+    ball = 0;
+    out = 0;
+  };
+
   const handleResetBtn = function () {
-    window.location.reload();
+    init();
   };
 
   const checkNumber = function (number = '') {
@@ -59,8 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const checkStrike = function (number = '') {
-    answerArray = answer.split('');
-    guessArray = number.split('');
+    const answerArray = answer.split('');
+    const guessArray = number.split('');
     strike = 0;
     for (let i = 0; i < number.length; i++) {
       if (answerArray[i] === guessArray[i]) {
@@ -71,8 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const checkBall = function (number = '') {
-    answerArray = answer.split('');
-    guessArray = number.split('');
+    const answerArray = answer.split('');
+    const guessArray = number.split('');
     ball = 0;
     for (let i = 0; i < number.length; i++) {
       if (
@@ -102,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ball = checkBall(guessNumber);
       out = checkOut(guessNumber);
 
-      if (guessNumber === answer && strike === 3) {
+      if (guessNumber === answer || strike === 3) {
         resultGuess.textContent = `Yeah, the answer was ${answer}.`;
         resultRound.textContent = 'You win!';
       } else if (round <= 9 && out < 3) {
