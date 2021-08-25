@@ -240,7 +240,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [ ] [풀스택#21 - MySQL JSON 데이터 타입 사용](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack21.md)
 
-> - [ ] [풀스택#22 - MySQL 데이터 모델 설계, 실무 프로젝트 시작 및 설계](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack22.md)
+> - [x] [풀스택#22 - MySQL 데이터 모델 설계, 실무 프로젝트 시작 및 설계](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack22.md)
 
 > - [ ] [풀스택#23 - MySQL X DevApI를 이용한 NoSQL 구현 및 채팅 데이터 모델 구성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack23.md)
 
@@ -273,6 +273,8 @@ SSAC Web Full-Stack 3기 (예습&복습)
 > - [ ] [Tip & Talk 01 - 왜 풀스택인가? (개발자 커리어 패스)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk01.md)
 
 > - [x] [Tip & Talk 02 - 변수 선언과 GC의 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
+
+> - [ ] [Tip & Talk 03 - null과 undefined 값의 메모리 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
 
 #
 
