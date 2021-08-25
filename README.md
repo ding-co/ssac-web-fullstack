@@ -224,7 +224,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 <br/>
 
-> - [ ] [풀스택#14 - MySQL 샘플 데이터 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack14.md)
+> - [x] [풀스택#14 - MySQL 샘플 데이터 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack14.md)
 
 > - [ ] [풀스택#15 - MySQL DCL, DDL](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack15.md)
 
