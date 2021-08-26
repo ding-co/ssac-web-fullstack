@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < number.length; i++) {
       if (
         answerArray[i] !== guessArray[i] &&
-        guessArray.includes(answerArray[i])
+        answerArray.includes(guessArray[i])
       ) {
         ball += 1;
       }
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const checkOut = function (number = '') {
-    if (checkStrike(number) === 0 && checkBall(number) === 0) {
+    if (strike === 0 && ball === 0) {
       return out + 1;
     }
     return out;
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resultGuess.textContent = `Yeah, the answer was ${answer}.`;
         resultRound.textContent = 'You win!';
       } else if (round <= 9 && out < 3) {
-        resultGuess.textContent = `Your Guess Number is ${guessNumber}`;
+        resultGuess.textContent = `Your Guess Number is ${guessNumber}.`;
         resultRound.textContent = `Round ${round}: ${strike} Strike | ${ball} Ball | ${out} Out`;
       } else {
         resultGuess.textContent = `Sorry, the answer was ${answer}.`;
