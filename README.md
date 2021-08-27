@@ -228,7 +228,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [풀스택#15 - MySQL DCL, DDL](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack15.md)
 
-> - [ ] [풀스택#16 - MySQL DML, TCL](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack16.md)
+> - [x] [풀스택#16 - MySQL DML, TCL](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack16.md)
 
 > - [ ] [풀스택#17 - Mysql View, Trigger, Function, Procedure](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-full-stack/MySQL-full-stack17.md)
 
@@ -275,6 +275,14 @@ SSAC Web Full-Stack 3기 (예습&복습)
 > - [x] [Tip & Talk 02 - 변수 선언과 GC의 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
 
 > - [x] [Tip & Talk 03 - null과 undefined 값의 메모리 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
+
+#
+
+## Online (SSAC) 👨‍💻
+
+`[Extra Explanation]`
+
+> - [ ] [21_08_24_01 원시타입이 불변성인 이유]()
 
 #
 
