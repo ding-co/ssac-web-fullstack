@@ -258,6 +258,34 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 <br/>
 
+`[Flask]`
+
+> - [x] [풀스택#26 Flask 실무 - 설치, VS Code 세팅, 디버깅, 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Flask/Flask-full-stack26.md)
+
+<br/>
+
+`[Git & Github]`
+
+> - [x] [Git with Github 01 - Git 시작](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github01.md)
+
+> - [ ] [Git with Github 02 - Reset, Revert & Merge](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github02.md)
+
+> - [ ] [Git with Github 03 - Git Branch](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github03.md)
+
+> - [ ] [Git with Github 04 - 총정리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github04.md)
+
+<br/>
+
+> - [ ] [풀스택#27 Git 실무 01 - rebase, fork & pull request etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack27.md)
+
+> - [ ] [풀스택#28 Git 실무 02 - Git Flow 개념 및 실제 사례](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack28.md)
+
+> - [ ] [풀스택#29 Git 실무 03 - Git Trouble Shooting](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack29.md)
+
+<br/>
+
+> - [ ] [Tip#1 - Github Branch 사용법](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-tip/Git&Github-tip01.md)
+
 `[JavaScript]`
 
 > - [x] [풀스택#1 - JS 제대로 배우기 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack01.md)
