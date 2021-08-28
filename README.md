@@ -260,7 +260,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 `[Flask]`
 
-> - [x] [풀스택#26 Flask 실무 - 설치, VS Code 세팅, 디버깅, 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Flask/Flask-full-stack26.md)
+> - [x] [풀스택#26 Flask 실무 - 설치, VS Code 세팅, 디버깅, 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Flask/Flask-full-stack/Flask-full-stack26.md)
 
 <br/>
 
@@ -268,11 +268,11 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [Git with Github 01 - Git 시작](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github01.md)
 
-> - [ ] [Git with Github 02 - Reset, Revert & Merge](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github02.md)
+> - [x] [Git with Github 02 - Reset, Revert & Merge](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github02.md)
 
-> - [ ] [Git with Github 03 - Git Branch](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github03.md)
+> - [x] [Git with Github 03 - Git Branch](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github03.md)
 
-> - [ ] [Git with Github 04 - 총정리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github04.md)
+> - [x] [Git with Github 04 - 총정리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github04.md)
 
 <br/>
 
