@@ -306,11 +306,17 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 #
 
+`[책 소개]`
+
+> - [x] [책 소개 01 - 프로그래밍 공부는 책으로 하자?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Book01.md)
+
+#
+
 ## Online (SSAC) 👨‍💻
 
 `[Extra Explanation]`
 
-> - [ ] [21_08_24_01 원시타입이 불변성인 이유]()
+> - [ ] [21_08_24_01 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_01.md)
 
 #
 
