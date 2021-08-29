@@ -316,7 +316,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 `[Extra Explanation]`
 
-> - [ ] [21_08_24_01 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_01.md)
+> - [x] [21_08_24_01 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_01.md)
 
 #
 
