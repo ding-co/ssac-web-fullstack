@@ -326,7 +326,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [21_08_14_01 Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_01.md)
 
-> - [ ] [21_08_14_02 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_02.md)
+> - [x] [21_08_14_02 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_02.md)
 
 > - [x] [21_08_14_03 NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_03.md)
 
