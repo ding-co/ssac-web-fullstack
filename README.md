@@ -284,7 +284,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 <br/>
 
-> - [ ] [Tip#1 - Github Branch 사용법](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-tip/Git&Github-tip01.md)
+> - [x] [Tip#1 - Github Branch 사용법](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-tip/Git&Github-tip01.md)
 
 `[JavaScript]`
 
