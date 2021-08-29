@@ -298,7 +298,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 `[Tip & Talk]`
 
-> - [ ] [Tip & Talk 01 - 왜 풀스택인가? (개발자 커리어 패스)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk01.md)
+> - [x] [Tip & Talk 01 - 왜 풀스택인가? (개발자 커리어 패스)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk01.md)
 
 > - [x] [Tip & Talk 02 - 변수 선언과 GC의 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
 
