@@ -1,6 +1,6 @@
 # ssac-web-fullstack
 
-SSAC Web Full-Stack 3기 (예습&복습)
+SSAC Web Full-Stack 2기 (예습&복습)
 
 ## Online (books) 🏊‍♂️
 
@@ -330,7 +330,7 @@ SSAC Web Full-Stack 3기 (예습&복습)
 
 > - [x] [21_08_14_03 NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_03.md)
 
-> - [ ] [21_08_21_01 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_21_01.md)
+> - [x] [21_08_21_01 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_21_01.md)
 
 `[Assignment]`
 
