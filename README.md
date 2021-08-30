@@ -36,7 +36,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [ch15 - let, const 키워드와 블록 레벨 스코프](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch15.md)
 
-> - [ ] [ch16 - 프로퍼티 어트리뷰트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch16.md)
+> - [x] [ch16 - 프로퍼티 어트리뷰트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch16.md)
 
 > - [ ] [ch17 - 생성자 함수에 의한 객체 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch17.md)
 
