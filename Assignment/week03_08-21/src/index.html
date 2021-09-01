@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baseball Game</title>
+    <title>Number Baseball Game</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="./js/baseball.js"></script>
   </head>
   <body>
     <main id="baseball-game">
-      <span class="baseball-game__title">Number Baseball Game</span>
-      <section class="baseball-game__buttons">
-        <button class="baseball-game__start">start</button>
-        <button class="baseball-game__reset">reset</button>
+      <header class="baseball-game__title">Number Baseball Game</header>
+      <section>
+        <header class="baseball-game__buttons">
+          <button class="baseball-game__start">start</button>
+          <button class="baseball-game__reset">reset</button>
+        </header>
+        <article>
+          <form class="baseball-game__form hidden">
+            <label class="baseball-game__guide">Guess 3 Numbers!</label>
+            <input
+              class="baseball-game__input"
+              type="text"
+              required
+              minlength="3"
+              maxlength="3"
+            />
+          </form>
+          <p class="baseball-game__result"></p>
+        </article>
       </section>
-      <form id="baseball-form" class="hidden">
-        <label>
-          <span class="baseball-form__title">Guess 3 Numbers!</span>
-          <input
-            class="baseball-form__text"
-            type="text"
-            required
-            minlength="3"
-            maxlength="3"
-          />
-        </label>
-        <span class="baseball-form__guess"></span>
-        <span class="baseball-form__result"></span>
-      </form>
     </main>
   </body>
 </html>

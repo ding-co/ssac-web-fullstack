@@ -43,18 +43,18 @@
   transform: scale(0.95);
 }
 
-#baseball-form label {
+.baseball-game__form {
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.baseball-form__title {
+.baseball-game__guide {
   font-size: 20px;
 }
 
-.baseball-form__text {
+.baseball-game__input {
   margin: 30px 0;
   width: 160px;
   text-align: center;
@@ -65,13 +65,14 @@
   opacity: 0.5;
 }
 
-.baseball-form__text:focus {
+.baseball-game__input:focus {
   outline: 0;
 }
 
-.baseball-form__guess,
-.baseball-form__result {
+.baseball-game__result {
   display: flex;
   justify-content: center;
+  text-align: center;
+  line-height: 25px;
   margin-bottom: 8px;
 }
