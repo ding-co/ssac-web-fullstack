@@ -38,14 +38,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let outCnt = 0;
 
   const createAnswer = function () {
-    // Array  (vs. Set?)
+    // Array
     const numberCandidates = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
     let numberCandidatesLength = 10;
     for (let i = 0; i < ANSWER_SIZE; i++) {
-      const randomNumber = Math.floor(Math.random() * numberCandidatesLength);
-      const randomNumberIndex = numberCandidates.indexOf(randomNumber);
-      numberCandidates.splice(randomNumberIndex, 1);
+      const randomNumberIndex = Math.floor(
+        Math.random() * numberCandidatesLength
+      );
+      const randomNumber = numberCandidates[randomNumberIndex];
       answerNumber += randomNumber.toString();
+      numberCandidates.splice(randomNumberIndex, 1);
       numberCandidatesLength -= 1;
     }
     return answerNumber;
