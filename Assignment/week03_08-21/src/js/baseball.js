@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const handleResetBtn = function () {
     Dom.getInputForm().classList.add(HIDDEN_CLASS);
-    Dom.getInputForm().value = '';
+    Dom.getInputGuess().value = '';
     Dom.getResultGame().innerHTML = '';
     answerNumber = '';
     guessNumber = '';
