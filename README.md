@@ -304,11 +304,19 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 03 - null과 undefined 값의 메모리 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
 
+> - [ ] [Tip & Talk 04 - JS의 역사와 프로그래밍 언어의 트렌드와 역사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk04.md)
+
 #
 
 `[책 소개]`
 
 > - [x] [책 소개 01 - 프로그래밍 공부는 책으로 하자?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Book01.md)
+
+#
+
+`[특강]`
+
+> - [x] [2022 카카오 신입 개발자 블라인드 채용](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Special/Kakao-2022.md)
 
 #
 
