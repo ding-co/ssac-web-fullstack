@@ -40,7 +40,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [ch17 - 생성자 함수에 의한 객체 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch17.md)
 
-> - [ ] [ch18 - 함수와 일급 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch18.md)
+> - [x] [ch18 - 함수와 일급 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch18.md)
 
 > - [ ] [ch19 - 프로토타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch19.md)
 
