@@ -38,7 +38,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [ch16 - 프로퍼티 어트리뷰트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch16.md)
 
-> - [ ] [ch17 - 생성자 함수에 의한 객체 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch17.md)
+> - [x] [ch17 - 생성자 함수에 의한 객체 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch17.md)
 
 > - [ ] [ch18 - 함수와 일급 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch18.md)
 
