@@ -44,7 +44,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [ch19 - 프로토타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch19.md)
 
-> - [ ] [ch20 - strict mode](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch20.md)
+> - [x] [ch20 - strict mode](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch20.md)
 
 > - [ ] [ch21 - 빌트인 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch21.md)
 
