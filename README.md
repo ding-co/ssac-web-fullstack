@@ -42,7 +42,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [ch18 - 함수와 일급 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch18.md)
 
-> - [ ] [ch19 - 프로토타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch19.md)
+> - [x] [ch19 - 프로토타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch19.md)
 
 > - [x] [ch20 - strict mode](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch20.md)
 
