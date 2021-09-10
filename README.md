@@ -280,7 +280,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [풀스택#28 Git 실무 02 - Git Flow 개념 및 실제 사례](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack28.md)
 
-> - [ ] [풀스택#29 Git 실무 03 - Git Trouble Shooting](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack29.md)
+> - [x] [풀스택#29 Git 실무 03 - Git Trouble Shooting](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack29.md)
 
 <br/>
 
@@ -293,6 +293,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [풀스택#2 - JS VSCode 세팅, 유용한 Extension 설치, 단축키](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack02.md)
 
 > - [x] [풀스택#3 - JS 변수, 상수, 데이터 타입, 호이스팅, 스코프 체인](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack03.md)
+
+> - [x] [풀스택#4 - 변수와 함수의 호이스팅이란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack04.md)
 
 <br/>
 
@@ -310,7 +312,9 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 `[책 소개]`
 
-> - [x] [책 소개 01 - 프로그래밍 공부는 책으로 하자?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Book01.md)
+> - [x] [책 소개 - 프로그래밍 공부는 책으로 하자?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Book.md)
+
+> - [ ] [책 소개 - 모던 자바스크립트 Deep Dive 1부](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Deep-dive01.md)
 
 #
 
