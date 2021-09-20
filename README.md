@@ -46,7 +46,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [ch20 - strict mode](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch20.md)
 
-> - [ ] [ch21 - 빌트인 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch21.md)
+> - [x] [ch21 - 빌트인 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch21.md)
 
 > - [ ] [ch22 - this](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch22.md)
 
@@ -286,6 +286,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip#1 - Github Branch 사용법](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-tip/Git&Github-tip01.md)
 
+<br/>
+
 `[JavaScript]`
 
 > - [x] [풀스택#1 - JS 제대로 배우기 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack01.md)
@@ -307,6 +309,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [x] [Tip & Talk 03 - null과 undefined 값의 메모리 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
 
 > - [ ] [Tip & Talk 04 - JS의 역사와 프로그래밍 언어의 트렌드와 역사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk04.md)
+
+> - [x] [Tip & Talk 05 - SW 공학 옵저버 패턴, MVC 패턴](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk05.md)
 
 #
 
@@ -330,6 +334,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [21_08_24_01 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_01.md)
 
+> - [x] [21_08_24_02 WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_02.md)
+
 #
 
 ## Offline (SSAC) 👨‍💻
@@ -343,6 +349,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [x] [21_08_14_03 NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_03.md)
 
 > - [x] [21_08_21_01 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_21_01.md)
+
+<br/>
 
 `[Assignment]`
 
