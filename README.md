@@ -4,7 +4,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 ## Online (books) 🏊‍♂️
 
-`[Deep-dive JS]`
+<details>
+  <summary> <strong> [Deep dive JavaScript] </strong> </summary>
 
 > - [x] [ch01 - 프로그래밍](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch01.md)
 
@@ -104,9 +105,10 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [ch49 - Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch49.md)
 
-<br/>
+</details>
 
-`[Leraning React]`
+<details>
+  <summary> <strong> [Learning React] </strong> </summary>
 
 > - [x] [ch01 - 리액트 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch01.md)
 
@@ -132,21 +134,45 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [ch12 - 리액트와 서버](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch12.md)
 
+</details>
+
+<details>
+  <summary> <strong> [TypeScript Programming] </strong> </summary>
+
+> - [x] [ch01 - 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch01.md)
+
+> - [ ] [ch02 - 타입스크립트: 3,000미터 상공에서 내려다보기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch02.md)
+
+> - [ ] [ch03 - 타입의 모든 것](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch03.md)
+
+> - [ ] [ch04 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch04.md)
+
+> - [ ] [ch05 - 클래스와 인터페이스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch05.md)
+
+> - [ ] [ch06 - 고급 타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch06.md)
+
+> - [ ] [ch07 - 에러 처리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch07.md)
+
+> - [ ] [ch08 - 비동기 프로그래밍, 동시성과 병렬성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch08.md)
+
+> - [ ] [ch09 - FE framework & BE framework](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch09.md)
+
+> - [ ] [ch10 - Namespaces, Modules](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch10.md)
+
+> - [ ] [ch11 - JS와 상호 동작](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch11.md)
+
+> - [ ] [ch12 - TS 빌드 및 실행](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch12.md)
+
+> - [ ] [ch13 - 결론](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch13.md)
+
+</details>
+
 #
 
 ## Online (Youtube) 🚴‍♀️
 
-`[Linux & Docker]`
-
-> - [ ] [Docker 01 - 도커 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker01.md)
-
-> - [ ] [Docker 02 - 도커 설치하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker02.md)
-
-> - [ ] [Docker 03 - 도커 기본 명령어](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker03.md)
-
-> - [ ] [Docker 04 - 오라클, MySQL 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker04.md)
-
-<br/>
+<details>
+  <summary> <strong> [Linux & Docker] </strong> </summary>
 
 > - [x] [Linux 01 - 리눅스 기초](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-basic/Linux01.md)
 
@@ -157,6 +183,16 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [Linux 04 - 도커에서 리눅스 컨테이너 구동 팁](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-basic/Linux04.md)
 
 > - [ ] [Linux 05 - Shell Script & Cron](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-basic/Linux05.md)
+
+<br/>
+
+> - [ ] [Docker 01 - 도커 개념](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker01.md)
+
+> - [ ] [Docker 02 - 도커 설치하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker02.md)
+
+> - [ ] [Docker 03 - 도커 기본 명령어](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker03.md)
+
+> - [ ] [Docker 04 - 오라클, MySQL 설치](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Docker/Docker-basic/Docker04.md)
 
 <br/>
 
@@ -192,9 +228,11 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip#2 - 쉘 스크립트를 시스템 명령으로 등록](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Linux/Linux-tip/Linux-tip02.md)
 
-<br/>
+</details>
 
-`[MySQL]`
+<details>
+
+  <summary> <strong> [MySQL] </strong> </summary>
 
 > - [x] [MySQL 01 - Database 및 User 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-basic/MySQL01.md)
 
@@ -256,15 +294,17 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [Tip#3 - Linux, MySQL 오라클 클라우드 무료 서버 사용하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/MySQL/MySQL-tip/MySQL-tip03.md)
 
-<br/>
+</details>
 
-`[Flask]`
+<details>
+  <summary> <strong> [Flask] </strong> </summary>
 
 > - [x] [풀스택#26 Flask 실무 - 설치, VS Code 세팅, 디버깅, 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Flask/Flask-full-stack/Flask-full-stack26.md)
 
-<br/>
+</details>
 
-`[Git & Github]`
+<details>
+  <summary> <strong> [Git & Github] </strong> </summary>
 
 > - [x] [Git with Github 01 - Git 시작](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-basic/Git&Github01.md)
 
@@ -280,15 +320,16 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [풀스택#28 Git 실무 02 - Git Flow 개념 및 실제 사례](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack28.md)
 
-> - [x] [풀스택#29 Git 실무 03 - Git Trouble Shooting](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack29.md)
+> - [ ] [풀스택#29 Git 실무 03 - Git Trouble Shooting](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack29.md)
 
 <br/>
 
 > - [x] [Tip#1 - Github Branch 사용법](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-tip/Git&Github-tip01.md)
 
-<br/>
+</details>
 
-`[JavaScript]`
+<details>
+  <summary> <strong> [JavaScript] </strong> </summary>
 
 > - [x] [풀스택#1 - JS 제대로 배우기 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack01.md)
 
@@ -298,9 +339,12 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#4 - 변수와 함수의 호이스팅이란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack04.md)
 
+</details>
+
 <br/>
 
-`[Tip & Talk]`
+<details>
+  <summary> <strong> [Tip & Talk] </strong> </summary>
 
 > - [x] [Tip & Talk 01 - 왜 풀스택인가? (개발자 커리어 패스)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk01.md)
 
@@ -312,35 +356,39 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 05 - SW 공학 옵저버 패턴, MVC 패턴](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk05.md)
 
-#
+</details>
 
-`[책 소개]`
+<details>
+  <summary> <strong> [책 소개] </strong> </summary>
 
 > - [x] [책 소개 - 프로그래밍 공부는 책으로 하자?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Book.md)
 
 > - [ ] [책 소개 - 모던 자바스크립트 Deep Dive 1부](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Deep-dive01.md)
 
-#
+</details>
 
-`[특강]`
+<details>
+  <summary> <strong> [특강] </strong> </summary>
 
 > - [x] [2022 카카오 신입 개발자 블라인드 채용](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Special/Kakao-2022.md)
 
-#
+</details>
 
-## Online (SSAC) 👨‍💻
-
-`[Extra Explanation]`
+<details>
+  <summary> <strong> [Extra Explanation] </strong> </summary>
 
 > - [x] [21_08_24_01 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_01.md)
 
 > - [x] [21_08_24_02 WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_02.md)
 
+</details>
+
 #
 
 ## Offline (SSAC) 👨‍💻
 
-`[Absentee]`
+<details>
+  <summary> <strong> [Absentee] </strong> </summary>
 
 > - [x] [21_08_14_01 Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_01.md)
 
@@ -350,10 +398,15 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [21_08_21_01 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_21_01.md)
 
-<br/>
+</details>
 
-`[Assignment]`
+<details>
+  <summary> <strong> [Assignments] </strong> </summary>
 
 > - [x] [Week 02 Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
 
 > - [x] [Week 03 Assignment - JavaScript](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)
+
+</details>
+
+#
