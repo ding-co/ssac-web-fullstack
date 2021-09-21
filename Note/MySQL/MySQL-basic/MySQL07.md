@@ -30,7 +30,7 @@ select now(), str_to_date('2018-12-03', '%Y-%m-%d');
 select str_to_date('12/03/2018', '%d/%m/%Y')
 
 -- concat (str 붙이기)
--- 내부적으로 모두 아스키코드 이므로 + 연산자 안먹힘 (파이썬 처럼)
+-- 내부적으로 모두 아스키코드 이므로 + 연산자 안먹힘 (파이썬처럼 불가)
 select concat('aaa', 'bbb', 'ccc', 'ddd');
 
 -- concat_ws (delimiter 지정)
