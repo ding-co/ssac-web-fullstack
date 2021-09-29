@@ -2,173 +2,6 @@
 
 SSAC Web Full-Stack 2기 (예습&복습)
 
-## Online (books) 🏊‍♂️
-
-<details>
-  <summary> <strong> [Deep dive JavaScript] </strong> </summary>
-
-> - [x] [ch01 - 프로그래밍](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch01.md)
-
-> - [x] [ch02 - 자바스크립트란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch02.md)
-
-> - [x] [ch03 - 자바스크립트 개발 환경과 실행 방법](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch03.md)
-
-> - [x] [ch04 - 변수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch04.md)
-
-> - [x] [ch05 - 표현식과 문](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch05.md)
-
-> - [x] [ch06 - 데이터 타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch06.md)
-
-> - [x] [ch07 - 연산자](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch07.md)
-
-> - [x] [ch08 - 제어문](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch08.md)
-
-> - [x] [ch09 - 타입 변환과 단축 평가](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch09.md)
-
-> - [x] [ch10 - 객체 리터럴](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch10.md)
-
-> - [x] [ch11 - 원시 값과 객체의 비교](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch11.md)
-
-> - [x] [ch12 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch12.md)
-
-> - [x] [ch13 - 스코프](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch13.md)
-
-> - [x] [ch14 - 전역 변수의 문제점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch14.md)
-
-> - [x] [ch15 - let, const 키워드와 블록 레벨 스코프](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch15.md)
-
-> - [x] [ch16 - 프로퍼티 어트리뷰트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch16.md)
-
-> - [x] [ch17 - 생성자 함수에 의한 객체 생성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch17.md)
-
-> - [x] [ch18 - 함수와 일급 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch18.md)
-
-> - [x] [ch19 - 프로토타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch19.md)
-
-> - [x] [ch20 - strict mode](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch20.md)
-
-> - [x] [ch21 - 빌트인 객체](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch21.md)
-
-> - [ ] [ch22 - this](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch22.md)
-
-> - [ ] [ch23 - 실행 컨텍스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch23.md)
-
-> - [ ] [ch24 - 클로저](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch24.md)
-
-> - [ ] [ch25 - 클래스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch25.md)
-
-> - [ ] [ch26 - ES6 함수의 추가 기능](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch26.md)
-
-> - [ ] [ch27 - 배열](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch27.md)
-
-> - [ ] [ch28 - Number](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch28.md)
-
-> - [ ] [ch29 - Math](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch29.md)
-
-> - [ ] [ch30 - Date](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch30.md)
-
-> - [ ] [ch31 - RegExp](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch31.md)
-
-> - [ ] [ch32 - String](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch32.md)
-
-> - [ ] [ch33 - 7번째 데이터 타입 Symbol](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch33.md)
-
-> - [ ] [ch34 - 이터러블](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch34.md)
-
-> - [ ] [ch35 - 스프레드 문법](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch35.md)
-
-> - [ ] [ch36 - 디스트럭처링 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch36.md)
-
-> - [ ] [ch37 - Set과 Map](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch37.md)
-
-> - [ ] [ch38 - 브라우저의 렌더링 과정](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch38.md)
-
-> - [ ] [ch39 - DOM](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch39.md)
-
-> - [ ] [ch40 - 이벤트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch40.md)
-
-> - [ ] [ch41 - 타이머](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch41.md)
-
-> - [ ] [ch42 - 비동기 프로그래밍](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch42.md)
-
-> - [ ] [ch43 - Ajax](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch43.md)
-
-> - [ ] [ch44 - REST API](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch44.md)
-
-> - [ ] [ch45 - 프로미스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch45.md)
-
-> - [ ] [ch46 - 제너레이터와 async/await](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch46.md)
-
-> - [ ] [ch47 - 에러 처리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch47.md)
-
-> - [ ] [ch48 - 모듈](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch48.md)
-
-> - [ ] [ch49 - Babel과 Webpack을 이용한 ES6+/ES.NEXT 개발 환경 구축](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Deep-dive/ch49.md)
-
-</details>
-
-<details>
-  <summary> <strong> [Learning React] </strong> </summary>
-
-> - [x] [ch01 - 리액트 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch01.md)
-
-> - [ ] [ch02 - 리액트를 위한 자바스크립트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch02.md)
-
-> - [ ] [ch03 - 자바스크립트를 활용한 함수형 프로그래밍](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch03.md)
-
-> - [ ] [ch04 - 리액트의 작동 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch04.md)
-
-> - [ ] [ch05 - JSX를 사용하는 리액트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch05.md)
-
-> - [ ] [ch06 - 리액트 상태 관리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch06.md)
-
-> - [ ] [ch07 - 훅스로 컴포넌트 개선하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch07.md)
-
-> - [ ] [ch08 - 데이터 포함시키기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch08.md)
-
-> - [ ] [ch09 - Suspense](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch09.md)
-
-> - [ ] [ch10 - 리액트 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch10.md)
-
-> - [ ] [ch11 - 리액트 라우터](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch11.md)
-
-> - [ ] [ch12 - 리액트와 서버](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/Learning-react/ch12.md)
-
-</details>
-
-<details>
-  <summary> <strong> [TypeScript Programming] </strong> </summary>
-
-> - [x] [ch01 - 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch01.md)
-
-> - [ ] [ch02 - 타입스크립트: 3,000미터 상공에서 내려다보기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch02.md)
-
-> - [ ] [ch03 - 타입의 모든 것](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch03.md)
-
-> - [ ] [ch04 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch04.md)
-
-> - [ ] [ch05 - 클래스와 인터페이스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch05.md)
-
-> - [ ] [ch06 - 고급 타입](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch06.md)
-
-> - [ ] [ch07 - 에러 처리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch07.md)
-
-> - [ ] [ch08 - 비동기 프로그래밍, 동시성과 병렬성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch08.md)
-
-> - [ ] [ch09 - FE framework & BE framework](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch09.md)
-
-> - [ ] [ch10 - Namespaces, Modules](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch10.md)
-
-> - [ ] [ch11 - JS와 상호 동작](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch11.md)
-
-> - [ ] [ch12 - TS 빌드 및 실행](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch12.md)
-
-> - [ ] [ch13 - 결론](https://github.com/ding-co/ssac-web-fullstack/blob/main/Books/TS-programming/ch13.md)
-
-</details>
-
-#
-
 ## Online (Youtube) 🚴‍♀️
 
 <details>
@@ -377,9 +210,13 @@ SSAC Web Full-Stack 2기 (예습&복습)
 <details>
   <summary> <strong> [Extra Explanation] </strong> </summary>
 
-> - [x] [21_08_24_01 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_01.md)
+> - [x] [원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra01.md)
 
-> - [x] [21_08_24_02 WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Online/21_08_24_02.md)
+> - [x] [WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra02.md)
+
+> - [ ] [콜백함수란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra03.md)
+
+> - [ ] [let 호이스팅](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra04.md)
 
 </details>
 
@@ -390,22 +227,22 @@ SSAC Web Full-Stack 2기 (예습&복습)
 <details>
   <summary> <strong> [Absentee] </strong> </summary>
 
-> - [x] [21_08_14_01 Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_01.md)
+> - [x] [Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline01.md)
 
-> - [x] [21_08_14_02 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_02.md)
+> - [x] [실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline02.md)
 
-> - [x] [21_08_14_03 NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_14_03.md)
+> - [x] [NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline03.md)
 
-> - [x] [21_08_21_01 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/21_08_21_01.md)
+> - [x] [프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline04.md)
 
 </details>
 
 <details>
   <summary> <strong> [Assignments] </strong> </summary>
 
-> - [x] [Week 02 Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
+> - [x] [Week 02 Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week02_08-14/ding-co.md)
 
-> - [x] [Week 03 Assignment - JavaScript](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)
+> - [x] [Week 03 Assignment - JavaScript](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week03_08-21/ding-co.md)
 
 </details>
 
