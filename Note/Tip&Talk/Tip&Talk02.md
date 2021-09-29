@@ -1,4 +1,4 @@
-## {Tip&Talk} - 변수선언과 GC의 원리 (call-by-value와 call-by-reference)
+## {Tip&Talk} 변수선언과 GC의 원리 (call-by-value와 call-by-reference)
 
 ```js
 // a = 2

@@ -1,4 +1,4 @@
-## {결석자용:자막} - 20210814_01 - Daemon, Packet, CharSet, SSH, HTTPS 그리고 라떼는?
+## {결석자용:자막} Daemon, Packet, CharSet, SSH, HTTPS 그리고 라떼는?
 
 ### _데몬(Daemon)_
 

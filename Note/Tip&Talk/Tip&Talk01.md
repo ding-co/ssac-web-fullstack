@@ -1,4 +1,4 @@
-## {Tip&Talk} - 왜 풀스택인가? (feat. 개발자 커리어 패스)
+## {Tip&Talk} 왜 풀스택인가? (feat. 개발자 커리어 패스)
 
 ### _Publisher_
 

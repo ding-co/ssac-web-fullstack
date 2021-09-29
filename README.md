@@ -183,7 +183,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 02 - 변수 선언과 GC의 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
 
-> - [x] [Tip & Talk 03 - null과 undefined 값의 메모리 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk02.md)
+> - [x] [Tip & Talk 03 - null과 undefined 값의 메모리 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk03.md)
 
 > - [ ] [Tip & Talk 04 - JS의 역사와 프로그래밍 언어의 트렌드와 역사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk04.md)
 
@@ -240,9 +240,9 @@ SSAC Web Full-Stack 2기 (예습&복습)
 <details>
   <summary> <strong> [Assignments] </strong> </summary>
 
-> - [x] [Week 02 Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week02_08-14/ding-co.md)
+> - [x] [Week 02 Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
 
-> - [x] [Week 03 Assignment - JavaScript](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week03_08-21/ding-co.md)
+> - [x] [Week 03 Assignment - JavaScript](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)
 
 </details>
 
