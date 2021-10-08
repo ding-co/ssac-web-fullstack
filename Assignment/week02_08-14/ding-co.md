@@ -31,10 +31,10 @@
 
 <br/>
 
-1.  - [x] start.sh 생성 (~/bin/) <br/>
+1.  - [x] `start.sh` 생성 (~/bin/) <br/>
 
-    `start mysql` <br/>
-    `start nginx`
+    start mysql <br/>
+    start nginx
 
     <img src="./screenshots/과제2/과제2-1.png" width="600" height="500">
 
@@ -44,10 +44,10 @@
 
   <br/>
 
-2.  - [x] stop.sh 생성 <br/>
+2.  - [x] `stop.sh 생성` <br/>
 
-    `stop mysql` <br/>
-    `stop nginx`
+    stop mysql <br/>
+    stop nginx
 
     <img src="./screenshots/과제2/과제2-2.png" width="600" height="500">
 
@@ -57,10 +57,10 @@
 
   <br/>
 
-3.  - [x] restart.sh 생성 <br/>
+3.  - [x] `restart.sh` 생성 <br/>
 
-    `restart mysql` <br/>
-    `restart nginx`
+    restart mysql <br/>
+    restart nginx
 
     <img src="./screenshots/과제2/과제2-3.png" width="600" height="500">
 

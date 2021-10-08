@@ -25,16 +25,14 @@
 
   - 내가 만든 홈페이지에 index.html를 올려놓거나 <br/> baseball.js 로 짜서 node로 실행
 
-### _시연_
-
 ### _src_
 
-- [index.html](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week03_08-21/src/index.html)
+- [index.html](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/index.html)
 
-- [css/styles.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week03_08-21/src/css/styles.css)
+- [css/styles.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/styles.css)
 
-- [css/reset.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week03_08-21/src/css/reset.css)
+- [css/reset.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/reset.css)
 
-- [css/screens/baseball.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week03_08-21/src/css/screens/baseball.css)
+- [css/screens/baseball.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/screens/baseball.css)
 
-- [js/baseball.js](https://github.com/ding-co/ssac-web-fullstack/blob/main/assignment/week03_08-21/src/js/baseball.js)
+- [js/baseball.js](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/js/baseball.js)
