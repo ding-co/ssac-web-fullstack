@@ -189,6 +189,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 05 - SW 공학 옵저버 패턴, MVC 패턴](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk05.md)
 
+> - [ ] [Tip & Talk 06 - OOP ~ TS interface](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk06.md)
+
 </details>
 
 <details>
@@ -217,6 +219,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [콜백함수란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra03.md)
 
 > - [ ] [let 호이스팅](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra04.md)
+
+> - [ ] [Object의 깊은 복사 vs. 얕은 복사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra05.md)
 
 </details>
 
