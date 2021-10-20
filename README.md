@@ -191,6 +191,10 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [Tip & Talk 06 - OOP ~ TS interface](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk06.md)
 
+> - [ ] [Tip & Talk 07 - 오버라이딩, 디스트럭쳐링 etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk07.md)
+
+> - [x] [Tip & Talk 08 - Strict mode, ESLint etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk08.md)
+
 </details>
 
 <details>
