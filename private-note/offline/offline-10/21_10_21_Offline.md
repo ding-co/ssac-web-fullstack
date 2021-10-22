@@ -1,20 +1,19 @@
-b## [21_10_21 목 오프라인 수업 11]
+## [21_10_21 목 오프라인 수업 11]
 
 ### _공지사항_
 
 - 2층 오픈캠프, 집중학습룸1, 휴게실에서 팀 프로젝트 진행
-- 화/목 (집중학습룸1, 오픈캠프)
-- 토 (종일, 0900-1700)
+- 화/목 (1900-2100)
+- 토 (1000-1700)
   - 오전; 이론수업
-  - 오후; 실습(소셜 북마크)/팀 프로젝트
+  - 오후; 실습(소셜 북마크) / 팀 프로젝트
 - 다음주부터 러닝 리액트 진행 (모든 챕터 다 봐야함)
 - 러닝 리액트 끝나면 노드 + TS
-  - TS
 - 소셜 북마크 (SBM)
 
-  - HTML/CSS + Bootstrap 5
-    - html, js
-    - css -> Bootstrap 5
+  - HTML/CSS + Bootstrap
+    - HTML
+    - CSS -> Bootstrap
   - React + JS, [Material UI]
     - CRA (Create-React-App)
       - manifest 파일 생김 (PWA 위함)
@@ -34,7 +33,7 @@ b## [21_10_21 목 오프라인 수업 11]
 - 팀 프로젝트 결과물 (제품)
 
   - 스토어에 올림
-  - 2개 버전 (깃헙 3개 레포지토리)
+  - 깃헙 3개 Repo
 
     - Admin
 
@@ -54,7 +53,7 @@ b## [21_10_21 목 오프라인 수업 11]
         - Native App; 겉, 속 모두 앱
           - Android; Kotlin, Java
           - IOS; Swift
-        - Flutter -> AOS/IOS 빌드하는 대로 나옴
+        - Flutter -> Android/IOS 빌드하는 대로 나옴
           - 슬라이드 등 에니메이션 다 있음 (편리)
         - React Native
           - 비즈니스 로직은 그대로지만 화면, css 등은 다 바꿔야 함
@@ -77,7 +76,7 @@ b## [21_10_21 목 오프라인 수업 11]
         따라서 압축을 해서 보내는데 압축은 nginx에서 설정할 수도 있고 <br/>
         next.js에서도 설정할 수 있음. <br/>
         node, db 등 io 다 비동기 처리함 (async await) <br/>
-        nginx에 캐싱 처리해서 처리할 수도 있음
+        nginx에 캐싱해서 처리할 수도 있음
 
       - JS / TS (Next.js)
 
@@ -94,14 +93,14 @@ b## [21_10_21 목 오프라인 수업 11]
     - API URL; ~/api/0.1/users
     - 관리하기 힘들어서 앱 실행하면 auto upgrade로 걸어 놓음 <br/>
       (이전 버전 쓰지 못하게 하는데 만약 이전 버전 사용하고 있는 사람은 <br/>
-      요청이 안올 수 있어서 문제 있을 수 있음)
+      요청이 안올 수 있어서 문제 발생 가능)
   - App
 - 팀 프로젝트 유의사항
 
   - Admin, Customer 모두 같이 역할분담 (기획, DB 설계, 서버 코딩은 같이)
   - 공통 컴포넌트 (모듈) 먼저 만들기
-    - button, input, file, nav, footer, model, select 등 컴포넌트 만들기
-    - 예) model - confirm, validate + alert (유효 검증, 경고창)
+    - button, input, file, nav, footer, modal, select 등 컴포넌트 만들기
+    - 예) modal - confirm, validate + alert (유효 검증, 경고창)
 
 - TS 프로그래밍 교재는 6~7장 까지만 우선 봐도 됨
 
@@ -229,7 +228,7 @@ b## [21_10_21 목 오프라인 수업 11]
   - 하지만 Axios도 사실 가벼워서 많이 쓰긴 함
   - 예)
     - 라우터 이동
-    - 라우터 이동시키려고 redux 쓰는건 쓸데없는 짓임 (필요없는 데 굳이 쓸 필요는 없음)
+    - 라우터 이동시키려고 redux 쓰는건 쓸데없는 짓임 (필요없는데 굳이 쓸 필요는 없음)
     - context api 하나만 있으면 됨 (훅 하나만 있으면 끝남)
     - 적절하게 사용해야 하는 걸 알아야 함 (모르고 사용하면 안됨!)
 
