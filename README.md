@@ -195,6 +195,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 08 - Strict mode, ESLint etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk08.md)
 
+> - [x] [Tip & Talk 09 - this etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk09.md)
+
 </details>
 
 <details>
