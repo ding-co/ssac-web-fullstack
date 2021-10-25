@@ -17,7 +17,7 @@
     arr.filter((a) => a.id > 2); // object (array) type
 
     // find (하나만 찾고 싶음)
-    arr.find((a) => a.id === 2); // 그 해당 요소 1개만 나옴
+    arr.find((a) => a.id === 2); // 그 해당 요소 1개만 나옴 (배열 타입 아님)
 
     // concat
     a1 = [1, 2];
@@ -45,14 +45,14 @@
     n.toFixed(1); // 소수점 한자리로 바뀜 + string 타입으로 변환
 
     n = 123.04;
-    n.toFixed(); // 소수점 없앰 + string 타입으로 변환
+    n.toFixed(); // 소수점 다 없앰 + string 타입으로 변환
 
     // new 안붙여도 됨 ex) Array()
 
     // Math.abs(), Math.PI, Math.sqrt()
 
-    Math.random(); // 0이상 1미만 소수
-    Math.random() * 10; // 0이상 9미만 (1의 자리수)
+    Math.random(); // 0이상 1미만 실수
+    Math.random() * 10; // 0이상 10미만 (for 1의 자리 수 구할 때 활용 가능)
 
     // floor 메서드 주의사항
     // 음수처리할 때 내림 주의
@@ -72,10 +72,10 @@
 
     d = new Date();
 
-    // PC 조작 우려 생김 (PC 시간 변경)
+    // PC 조작 우려 생김 (사용자가 PC 시간 변경 가능)
 
     // 아이디어 1)
-    // 1. 화면 상 timestamp 암호화해서 내림for 해킹 방지)
+    // 1. 화면 상 timestamp 암호화해서 내림 (for 해킹 방지)
     // 2. 서버에서 클라이언트로 올릴 때 token 형태로 클라이언트 시간 같이 올림
 
     // 아이디어 2)
@@ -104,14 +104,15 @@
     // mysql date => varchar(8)
     // 미국이나 다른 나라 시간대면 varchar 쓰기 애매함
     // 따라서 timestamp 씀! (timestamp에 GMT 붙음)
-    // timestamp에 들어가 있는건 ms로 들어가 있음 (우리가 보는건 string 이지만... 실제 내부는 ms)
+    // timestamp에 들어가있는건 ms로 들어가 있음
+    // (우리가 보는건 string 이지만... 실제 내부는 ms)
     // 보이는 것: 2021-10-23 11:30:40.9
-    // 시간 빼고는 다 메서드 뒤쪽에 s 붙임
+    // 시간만 다 메서드 뒤쪽에 s 붙임
     // d.getYear(), d.getFullYear()
     // d.getYear()는 1900년 부터 지금까지 diff 나옴
     // login 시간, 가입 시간, 예약 시간 등은 글로벌 서비스 위해서는 timestamp 사용 추천
 
-    // d.getMonth() 는 달 숫자 하나 적게 나옴
+    // d.getMonth() 는 month 숫자 하나 적게 나옴
     // d.getDay()는 week day (0~ 6, 0은 일, 6은 토)
 
     // dd = d.getDay()
@@ -121,7 +122,7 @@
 
     // moment 라이브러리 사용 (js 모듈)
     // 무거워서 잘 안쓰기는 하는데 admin 같은 경우는 moment js 사용 가능
-    // admin은 프로젝트 자체가 가볍게 만들어서
+    // (admin은 프로젝트 자체를 가볍게 만들어서)
     // customer는 잘 안씀
 
     m = moment();
@@ -152,7 +153,8 @@
     s.toString();
 
     // new 붙여도 되고 안붙여도 됨
-    const s2 = new String('abc'); // String {'abc'}
+    const s2 = new String('abc');
+    // 하지만 string 같은 type은 new 붙이면 String {'abc'}
 
     // [[primitiveType]]: 'abc'
     // [[ ]] 실제로 내부적으로 키 값임
@@ -190,7 +192,7 @@
     // RegExp 클래스
 
     // 전체 식 => 정규식
-    new RegExp(/ /i | g | m); // 소괄호 안이 정규표현식
+    new RegExp(/ /igm); // 소괄호 안이 정규표현식
 
     // i는 ignore case (대소문자 구분 X)
     // g는 global case
@@ -201,18 +203,18 @@
     // /string /ig (있는 것 다 찾아줌)
     // /string /igm (m은 문자열 속의 개행 다 무시함)
 
-    // /[0-9] / (0~9 찾기, - 는 어떤 것 부터 어디까지, ASCII 코드 값, 9-5는 안됨)
-    // /[5-9 1-3] / (4 빼고 나머지 다 찾음)
-    // /[nt] /g (n 또는 t 전체에서 다 찾아줘)
+    // /[0-9]/ (0~9 찾기, - 는 어떤 것 부터 어디까지, ASCII 코드 값, 9-5는 안됨)
+    // /[5-9 1-3]/ (4 빼고 나머지 다 찾음)
+    // /[nt]/g (n 또는 t 전체에서 다 찾아줘)
 
-    // /[A-Z] /
-    // /[A-Z a-z] /
-    // /[0-9 A-Z a-z] /
+    // /[A-Z]/
+    // /[A-Za-z]/
+    // /[0-9A-Za-z]/
 
-    // /^s /ig (s로 시작 다 찾음)
-    // /[^A-Z] / (A-Z 아닌 것 다 찾음, 대괄호 안의 ^는 not)
+    // /^s/ig (s로 시작 다 찾음)
+    // /[^A-Z]/ (A-Z 아닌 것 다 찾음, 대괄호 안의 ^는 not)
 
-    // /[-aA_] / (-a하고 A_ 찾아줘)
+    // /[-aA_]/ (-a하고 A_ 찾아줘)
 
     re = new RegExp(/ /);
     s.indexOf('not');
@@ -221,21 +223,21 @@
     // \s는 스페이스
     // /w는 워드
 
-    [0-9 A-Z a-z _] [$#] // 반복해서 씀
+    [0-9A-Za-z_][$#] // 반복해서 씀
 
-    // ([0-9 A-Z a-z _] [$#]) 이렇게 소괄호 치면 두개 대괄호 포함 가능
+    // ([0-9A-Za-z_][$#]) 이렇게 소괄호 치면 두개 대괄호 포함 가능
 
     // 컴파일러 parser 만든다고 하면 저걸 걸면 됨
     re.test() // 만족하는 것 있으면 true 반환
     re.match(/\w)
-    re.match(^[A-Z a-z] +) // A-Z or a-z로 시작할 텐데 무조건 1글자 이상 옴
+    re.match(^[A-Za-z]+) // A-Z or a-z로 시작할 텐데 무조건 1글자 이상 옴
 
     // +는 1글자 이상
     // *는 있어도 되고 없어도 됨
     // ?는 1 or 0
 
-    // \d (\D 는 \d 아닌 것), \ㅇ는 숫자
-    // \W (\w 아닌 것)
+    // \d는 숫자 (\D 는 \d 아닌 것)
+    // \w는 워드: 0-9A-Za-z (\W 아닌 것)
 
     // 예제 - 전화번호 패턴
     // 02-405-1249 (3파트)
@@ -254,17 +256,17 @@
     \d{2,3}-?\d{3,4}-?\d{4}
 
     t1 = u.RegExp(/\d{2,3}-?\d{3,4}-?\d{4}/)
-    t2 = u.RegExp(/\d{4}-\d{4,5/)
+    t2 = u.RegExp(/\d{4}-\d{4,5}/)
     t1.test(tel) && t2.test(tel)
 
     // nginx.conf에 /api/ 하고 /apis/ 두 코드 뭉치 만들면 낭비임
     // 정규표현식 사용하기!
 
     // 맨 앞 /는 http:// 할때 /임
-    /{/^apis?}  // ^는 시작
-    /{/^api[s]?} // ss 올수도 있어서
-    /{/^api[s]*} // s 안와도 됨
-    /{/^api[s]+} // s 한글자 이상 무조건 와야 함
+    // /{/^apis?}/ (^는 시작)
+    // /{/^api[s]?}/ (ss 올수도 있어서)
+    // /{/^api[s]*}/ (s 안와도 됨)
+    // /{/^api[s]+}/ (s 한글자 이상 무조건 와야 함)
 
     // 예제 2 - 이메일
     // indiflex.corp@gmail.com
@@ -273,7 +275,7 @@
     ^[0-9A-Za-z]+[-0-9A-Za-z_\.]*
     ^[0-9A-Za-z]+[-\w\.]*
 
-    // .은 문자 하나 가리킴 (스페이스바도 문자 하나임)
+    // \.은 문자 하나 가리킴 (스페이스바도 문자 하나임)
     // ... 글자 3개
     // .{3,3} (3자리부터 3자리까지)
     // \[ (이스케이프 처리)
@@ -309,16 +311,16 @@
     // \n을 ;로 변환
     s.replace(/\n/g, ';')
 
-    //replace 메서드에 match 쓰기
+    // replace 메서드에 match 쓰기
     s.replace(/\s+string/, 'String');
 
     // \s를 ;로 바꾸고 싶을땐?
     // match는 array로 줌
 
-    // [\s] 대괄호 써도 됨
+    // [\s] 대괄호 써도 됨 (소괄호도 가능)
     // \s+는 match[0], string는 match[1] (인덱스)
-    s.replace(/(\s)+string, match => ';' + match[1])
-    s.replace(/[\s]+string, match => `;${match[1]}`)
+    s.replace(/(\s)+string/, match => ';' + match[1])
+    s.replace(/[\s]+string/, match => `;${match[1]}`)
 
     // 스페이스 개수만큼 찍고 싶으면 repeat 함수 사용
     s.replace(/[\s]+string, match => ';'.repeat(match[0].length))
@@ -332,11 +334,10 @@
 
     s.replace(/.[A-Z]/, match => match[0] + '_' + match[1].toLowerCase())
 
-    s.replace(/.[A-Z]/, match => match[0] + `_${match[1].toLowerCase()})
+    s.replace(/.[A-Z]/, match => match[0] + `_${match[1].toLowerCase()}`)
 
-    // 반대로 하고 싶으면
-    s.replace(/_[a-zA-Z], match => `${match[0]}_${match[1]}.toLowerCase()`)
-
+    // 반대로 하고 싶으면 (뒤 한글자 알고 싶음)
+    s.replace(/_[a-zA-Z]/, match => `${match[0]}_${match[1]}.toLowerCase()`)
     ```
 
   - Symbol, iterable
@@ -355,7 +356,7 @@
 
 - query flat 처리
 
-  - oracle; connect by
+  - oracle; connect by 이용
   - mysql;
     - self-join => ORM으로 보냄
     - with-CTE 사용해도 됨
@@ -375,7 +376,7 @@
 
   - LIKE 검색 (%) => DB 매우 부담 <br/>
     => Full Text Search 사용! <br/>
-    => data 많아서 FTS로 해결 안되면 elastic search 나 sphinx 같은 검색 엔진 사용
+    => data 많아서 Full Text Search로 해결 안되면 elastic search 나 sphinx 같은 검색 엔진 사용
 
 - format
 
@@ -411,7 +412,7 @@
     - outdt; 회원탈퇴 날짜 => 6개월 뒤에 새벽에 batch 돎 (crontab에 걸어 놔서 자동 delete)
     - delete로 보내지만 서버에서는 update로 처리 (어떤 의도로 보냈는지가 중요함)
     - 서버까지 오는 것에만 http 메서드 의미 부여하고, 서버 내에서 꼭 쿼리와 함께 일치시킬 필요 없음
-    - where outdt is null로 response (회원인 사람들만)
+    - 서버에서 where outdt is null로 response (회원인 사람들만)
 
 - 컴퓨터 설계; 현재 폰노이만 구조 => 실수 연산 처리 힘듦 (소수점) <br/>
   => 비트 연산 필요 (shift, unshift) <br/>
@@ -425,7 +426,7 @@
 - 회계 프로그램
 
   - 소수점 처리 떄문에 Math.round, Math.ceil, Math.floor 가득한 지저분한 코드...
-  - 부가세; 소수점 .원 (사실상 존재 X) => 사업자 신고하는 마음 // 나중에 종합소득세 환급 <br/>
+  - 부가세; 소수점 104.42원 (사실상 존재 X) => 사업자 신고하는 마음 // 나중에 종합소득세 환급 <br/>
     => 부가세 구하는 function 하나로 통일해야 함! round / ceil / floor 중에서 하나로 일관성!
   - 엑셀하고 완전히 일치하지 않음 (소수 연산), 구글 시트의 엑셀도 다름 <br/>
     => 같은 함수라도 결과값 다를 수 있음
@@ -438,11 +439,11 @@
   - 보안 관련 1년 정도 경험 쌓는 것도 괜찮음
   - 최근, 웹쪽은 보안 크게 할일 없긴 함
 
-- PG 사
+- PG사
 
   - 서버 2개 (secret key 이용)
   - 고객 브라우저 - 서버 (client key); 토큰 다 등록해야 함
-  - 클라이언트가 서버로 던지면 그 다른 서버와 통신해서 세션 맞는지 비교
+  - 클라이언트가 서버로 던지면 그 서버가 다른 서버와 통신해서 세션 맞는지 비교
 
 - node.js 모듈
 
@@ -452,10 +453,10 @@
   - moment 코드 다 바꿀려고 할 때 너무 노가다 힘듦 <br/>
     => date.utils.js 파일로 따로 빼서 add(), format() 등 다 만들어놓음 <br/>
     모든 페이지에서 이 파일 하나만 공유해서 사용, moment 패키지 제거하고 코드 일일히 다 수정해야 하는데 <br/>
-    번거로워서 unittest 초반에 다 만들어 놓고 코드 구현함 (리팩토링시 편함) <br/>
+    번거로워서 unittest 초반에 다 만들어 놓고 코드 구현함 (for 리팩토링시 편함) <br/>
     (프로토타입 개발 시에는 unittest 필요 없는데 장기적인 관점에서 규모 큰 서비스 개발 시에는 필수)
 
-- 하이브리드
+- 하이브리드; 언어
 
   - 껍데기는 앱
     - 네이티브 앱 (껍데기)이 setLocale() 함수 호출함
@@ -484,7 +485,7 @@
     - 개발자 많이 투입함
   - 연초에 프로젝트 발표되고 투입 인력 많아질 수 밖에 없음
   - 보통 프로젝트 본격 시작 전에 주식 못사게 함
-    - 프로젝트 투입 전 계획은 대략적으로 알고 있으므로 주식 미리 사면 문제 될 수 있음
+    - 프로젝트 투입 전 계획은 팀장급들은 대략적으로 알고 있으므로 주식 미리 사면 문제 될 수 있음
 
 - vi 에디터
 
@@ -493,13 +494,3 @@
 
 - 정규식 작성은 못하더라도 읽을 수는 있어야 함
 - 정규표현식 다양한 패턴 넣어서 테스트 필요함 (잘못 헷갈려서 실수할 수 있음)
-
-### [Curiosity]
-
-### _질문_
-
--
-
-### _개인_
-
--
