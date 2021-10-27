@@ -9,7 +9,7 @@
 - Symbol, iterator (갖는 의미 => spread, destructuring)
 
   - primitive type임 (new 하면 안됨)
-  - unique 한 중복되지 않는 값
+  - unique (중복되지 않는 값)
 
   ```js
   // Symbol 소괄호 안은 description임 (값이 아님)
@@ -31,14 +31,15 @@
   };
 
   // keys 메서드는 array 줌
-  const x = object.keys(BLOOD_TYPE)[(Math.random() * 10) % 4];
+  const x = Object.keys(BLOOD_TYPE)[parseInt(Math.random() * 10) % 4];
   if (x === BLOOD_TYPE.AB) {
   }
 
-  // BT[object.keys(BLOOD_TYPE)[(Math.random() * 10) % 4]] => BT.B, BT[B]
+  // BLOOD_TYPE[Object.keys(BLOOD_TYPE)[parseInt(Math.random() * 10) % 4]]
+  // => BLOOD_TYPE.B, BLOOD_TYPE[B]
 
   // Global Symbol Registry
-  // registry로 password check (과거에는 네트워크로 패스워드 체크 X)
+  // (과거에는 네트워크로 패스워드 체크 X, registry로 password check)
   // regedit()
 
   const sb1 = Symbol.for('A'); // A라는 키 값으로 registry에 등록됨
@@ -48,7 +49,7 @@
   Symbol.keyFor(sb2); // A (키) 나옴
 
   // const로 BLOOD_TYPE 선언했지만 내부 값 변경 가능 (reference type)
-  // BT.O = Symbol() 로 변경 가능
+  // BLOOD_TYPE.O = Symbol('OO') 로 변경 가능
 
   // 객체 내부 값 변경 불가
   const BLOOD_TYPE = Object.freeze({
@@ -78,7 +79,7 @@
           return {
             value: '',
             done: curIdx++ > arr.length,
-            // 마지막 3 요소 갈 때 value는 undefined 됨
+            // 위의 arr의 경우 인덱스가 3일때, value는 undefined 됨
           };
         },
       };
@@ -88,13 +89,13 @@
   // Array, Set, Map 등 모두 다 iterable
   // Object.prototype 에 next 함수 다 만들어 놓음
 
-  // typeof arr[Symbol.iterator] === 'function object' 만족하면 다 iterable함
+  // typeof arr[Symbol.iterator] === 'function' 만족하면 다 iterable함
 
   // 객체 자체가 it으로 넘어옴
   it = arr[Symbol.iterator]();
-  it.next(); // { value: 0, done: false }
   it.next(); // { value: 1, done: false }
-  it.next(); // { value: 2, done:false }
+  it.next(); // { value: 2, done: false }
+  it.next(); // { value: 3, done:false }
   it.next(); // { value: undefined, done: true }
 
   while ((x = it.next())) {
@@ -110,113 +111,112 @@
 
 - 스프레드 연산자 & 디스트럭쳐링
 
-```js
-const arr1 = [1, 2, 3];
-const u = { id: 1, name: 'hong' };
+  ```js
+  const arr1 = [1, 2, 3];
+  const u = { id: 1, name: 'hong' };
 
-Math.max(1, 2, 3);
+  Math.max(1, 2, 3);
 
-// Math.sum() 은 없음 => reduce 메서드 이용
+  // Math.sum() 은 없음 => reduce 메서드 이용
 
-function sum() {
-  // 속에서 쓰는 arguments 는 조작하면 안됨 (전역으로 처리도 하면 안됨)
-  // unsafe 경고
-  // arguments.reduce();
+  function sum() {
+    // 속에서 쓰는 arguments는 조작하면 안됨 (전역으로 처리도 하면 안됨)
+    // => unsafe 경고
+    // arguments.reduce();
 
-  ...arguments.reduce((prev, curr) => prev + curr, 0); // done이 true 될 때까지 (배열 아님)
-  [...arguments.reduce((prev, curr) => prev + curr, 0)]; // 배열로 만듦, 정확히 배열은 아니고 유사 배열 객체
+    ...arguments.reduce((prev, curr) => prev + curr, 0); // done이 true 될 때까지 (배열 아님)
+    [...arguments].reduce((prev, curr) => prev + curr, 0); // 배열로 만듦, 정확히 배열은 아니고 유사 배열 객체
 
-  // arguments 사용 자제
+    // arguments 사용 자제
 
-  // ...args
-  // [...arr] // 얕은 복사
-}
+    // ...args
+    // [...arr] // 얕은 복사
+  }
 
-function sum2 (...args){
-  [...args].reduce()
-}
+  function sum2 (...args){
+    [...args].reduce()
+  }
 
-const sum1 = arr.reduce((prev, curr) => prev + curr, 0); // 초기값 0 없으면 첫번째 원소 값 들어감
+  const sum1 = arr.reduce((prev, curr) => prev + curr, 0); // 초기값 0 없으면 첫번째 원소 값 들어감
 
-const arr3 = [1,2,3]
-const [a, b] = arr3; // a = 1, b = 2
+  const arr3 = [1,2,3]
+  const [a, b] = arr3; // a = 1, b = 2
 
-const [a, ...b] = arr3; // a = 1, b = [2, 3]
+  const [a, ...b] = arr3; // a = 1, b = [2, 3]
 
-// slice는 순수 함수 (slice 쓰거나 [...arr] 이용)
-// splice는 없애 버림
+  // slice는 순수 함수 (slice 쓰거나 [...arr] 이용)
+  // splice는 없애 버림
 
-sum(1,2,3) // ...args 로 하면 하나로 풀림
-sum(arr) // arr는 array => 함수에서 [...args]로
-```
+  sum(1,2,3) // ...args 로 하면 하나로 풀림
+  sum(arr) // arr는 array => 함수에서 [...args]로
+  ```
 
-```js
-const arr = [1, 2, 3];
-const [a, b, c = 8] = arr; // a = 1, b = 2, c = 3
-const [a, b, c, d = 7] = arr; // a = 1, b = 2, c = 3 , d = 7
-```
+  ```js
+  const arr = [1, 2, 3];
+  const [a, b, c = 8] = arr; // a = 1, b = 2, c = 3
+  const [a, b, c, d = 7] = arr; // a = 1, b = 2, c = 3 , d = 7
+  ```
 
-- Object 도 spread 쓰게 해달라 (ES 제안 사항)
+  - Object 도 spread 쓰게 해달라 (ES 제안 사항)
 
-```js
-// u도 next 불러주세요 (사실 object는 next 없음)
-// 올해부터 직접 구현할 필요 없어짐
+  ```js
+  // u도 next 불러주세요 (사실 object는 next 없음)
+  // 올해부터 직접 구현할 필요 없어짐
 
-const u = { id: 1, name: 'hong' };
+  const u = { id: 1, name: 'hong' };
 
-const u2 = { ...u, addr: 'Seoul' };
+  const u2 = { ...u, addr: 'Seoul' };
 
-const uu = { id: 5, name: 'kim' };
+  const uu = { id: 5, name: 'kim' };
 
-const u3 = { ...u, ...uu }; // id: 5, name: 'kim', addr: 'Seoul' (merge)
-```
+  const u3 = { ...u, ...uu }; // id: 5, name: 'kim', addr: 'Seoul' (merge 됨)
+  ```
 
-```js
-// 디스트럭쳐링
-const u = { id: 1, name: 'hong' };
-const { name } = u; // const {name: name} = u; => name = 'hong'
+  ```js
+  // 디스트럭쳐링
+  const u = { id: 1, name: 'hong' };
+  const { name } = u; // const {name: name} = u; => name = 'hong'
 
-// x: x, y: y, zz: 3
-const xy = { x, y, z: zz };
+  // x: x, y: y, zz: 3
+  const xy = { x, y, z: zz };
 
-const { name: nm } = u; // name을 nm으로 재정의
+  const { name: nm } = u; // name을 nm으로 재정의
 
-const u3 = { ...u, xy }; // xy: xy (xy => {x:1, y:2})
-// xy: {x:1, y:2}
+  const u3 = { ...u, xy }; // xy: xy (xy => {x:1, y:2})
 
-const {addr: a, xy: xyy} // 변수 a에는 seoul  xyy에는 {x:1, y:2}
+  const {addr: a, xy: xyy} // 변수 a에는 seoul, xyy에는 {x:1, y:2}
 
-const {addr:a, xy: {x}} // xy에 x:1 이것만 주세요
-const {addr:a, xy: {x:xxx}} // 앞에 x 써서 xxx로 재정의
+  const {addr: a, xy: {x}} // xy에 x:1 이것만 주세요
+  const {addr: a, xy: {x: xxx}} // 앞에 를 xxx로 재정의
 
-// 사용자가 데이터 수정함 ex) 이메일과 이름 입력
-user = {name: '', email: ''} // 초기값으로 뭔가 뿌림
+  // 사용자가 데이터 수정함 ex) 이메일과 이름 입력
+  user = {name: '', email: ''} // 초기값으로 뭔가 뿌림
 
-// 이후 사용자가 수정함 (name, email)
-// 사용자가 수정하고 저장 누름
+  // 이후 사용자가 수정함 (name, email)
+  // 사용자가 수정하고 저장 누름
 
-// user 객체는 조작하면 안됨
+  // user 객체는 조작하면 안됨
 
-// 저장 실행 함수에서는 user 새로 할등
-const user = {...user, email} // email이 덮어씀
+  // 저장 실행 함수에서는 user 새로 할당
+  const user = {...user, email} // email이 덮어씀
 
-const {id, ...userInfo} = u3; // id 뺴고 나머지 값은 userInfo라는 object로 다 들어감
+  const {id, ...userInfo} = u3; // id 뺴고 나머지 값은 userInfo라는 object (객체 { })로 다 들어감
 
-// 원본 객체 조작 하면 안됨 (새로 할당하는 한이 있더라도)
-// 중간에 루프 돌고 있는 동안에 다른 행동 할 수 있음 (JS는 비동기 IO, 동시 처리 가능)
-// 브라우저에서 여러 함수 돌 수 있음 (여러 버튼 등 이벤트)
-// => 에러 날 수 있음
+  // 원본 객체 조작 하면 안됨 (새로 할당하는 한이 있더라도)
+  // 중간에 루프 돌고 있는 동안에 다른 행동 할 수 있음 (JS는 비동기 IO, 동시 처리 가능)
+  // 브라우저에서 여러 함수 돌 수 있음 (여러 버튼 등 이벤트)
+  // => 에러 날 수 있음
 
-// 모두 순수 함수로 만들어야 함!
-```
+  // 모두 순수 함수로 만들어야 함!
+  ```
 
 #
 
 ### [Note]
 
-- 최근 추가된 사양에서 함부로 소문자로 만들기 힘듦
+- 최근 추가된 사양에서는 함부로 소문자로 만들기 힘듦
   - 레거시 프로젝트에 동일한 변수명 있을 수 있음
-  - 따라서 S가 대문자임
+  - 따라서 S가 대문자임 (Symbol)
   - 내년에 들어갈 사양들이 실제로 지금 브라우저에 되는 것도 있음
 - 참고) ES2021
   - 'str'.replaceAll()
@@ -231,7 +231,7 @@ const {id, ...userInfo} = u3; // id 뺴고 나머지 값은 userInfo라는 objec
     - CPU에 붙어 있는 캐시 메모리 영역
     - cf) M1 칩 -> CPU에 캐시 메모리 같이 넣음
     - oracle sequence
-      - 비동기로 여러 개가 동시에 때리면 같은 값을 줄 수 있음 (사실 바뀐 것인데 그 사이에)
+      - 비동기로 여러 개가 동시에 때리면 같은 값을 줄 수 있음 (사실 그 사이에 동기적으로 다른 값임)
       - AOP 필요 (미들웨어)
         - 전처리
           - sync
@@ -246,7 +246,7 @@ const {id, ...userInfo} = u3; // id 뺴고 나머지 값은 userInfo라는 objec
 - JS에는 enum 타입 없음
 
   ```js
-  // enum 타입이 있음
+  // enum (TS에는 enum 타입 있음)
 
   enum BLOOD_TYPE = {
     A,
@@ -263,13 +263,3 @@ const {id, ...userInfo} = u3; // id 뺴고 나머지 값은 userInfo라는 objec
 
 - Array, Set, Map, NodeList, HTMLCollection
 - uInt8Array => 고정형 int 8 바이트 array (의미 없음)
-
-### [Curiosity]
-
-### _질문_
-
--
-
-### _개인_
-
--
