@@ -2,6 +2,9 @@
 
 ### _공지사항_
 
+- 토요일 수업은 사전에 알려준 일정이 아니라 유동적으로 진행 예정
+- 오전 11시 30분 ~ 17시 수업
+
 ### _본수업_
 
 - 딥 다이브
@@ -29,20 +32,20 @@
       ['k2', 'v2'],
     ]);
 
-    // concat 해서 넣기
+    // concat 해서 넣는 방법도 있음
 
     // m.set('k3, 'v3');
 
-    // 보통 로그인한 사용자 데이터 => key value 로 넣기 (캐싱)
-    // ex) key: user ID, value: nickname / 살릴 props 등...
+    // 보통 로그인한 사용자 데이터 => key / value 로 넣기 (캐싱)
+    // ex) key: user ID, value: nickname or 살릴 props 등...
 
     // ex) 학생
     // DB 접근해서 join 너무 많으면 병목 많아짐
     // socket 병목
-    // 접속자 map으로 다 담아 놓음 (접속 안되어 있으면 push 보냄)
+    // 접속자 => map으로 다 담아 놓음 (접속 안되어 있으면 push 보냄)
     // value로 많은 값 보냄
 
-    // Redis 는 key value로 string string 만 됨
+    // Redis 는 key - value로 string - string 만 됨
 
     // functional language는 모든 게 다 object 될 수 있음
 
@@ -52,7 +55,7 @@
 
     m.keys(); // keys()는 iterator임
     // m.keys().next(); <-- 찾기 힘듦
-    [...m.keys()]; // filter 걸수도 있음
+    [...m.keys()].filter(); // filter 걸수도 있음
 
     m.values();
 
@@ -69,7 +72,7 @@
     // PM2 monit (프로세스 상태, 메모리, 요청 정보, Heap Size 등 나옴)
     // Heap은 node ~~.js 로 실행했을 때 메모리 확보함
 
-    // 8192 B 곱하기 몇개..?? => 메모리 확보 부담
+    // 8192B 곱하기 몇개..?? => 메모리 확보 부담
 
     // Heap 은 우선 시작 지점만 잡음
 
@@ -78,22 +81,20 @@
     const u1 = { id: 1, name: 'hong' };
     u2 = u;
 
-    u1 = null; // u2도 null??? (primitive type이면 u2도 null임)
+    u2 = null; // u1도 null??? (primitive type이면 u1도 null임)
 
-    // u2가 저 object 참조하고 있으므로 G.C 아직 처리 안됨
+    // u1이 저 object 참조하고 있으므로 G.C 아직 처리 안됨
 
     // WeakSet, WeakMap 을 써야 함!!!
     // Map은 캐싱으로 정말 많이 씀
 
     // 예시
-    m.set(u1, uobj);
-
-    m.set('k5', u);
+    m.set('k5', u1);
     m.get('k5');
 
-    u1 = null;
+    // u1 = null;
 
-    // 만약 Map 자료구조에서 u1 가 참조하는 객체를 비우고 싶은데...
+    // 만약 Map 자료구조에서 u1이 참조하는 객체를 비우고 싶은데...
     // 원래는 m.set('k5', null)
     // u1는 null 이지만 m.get('k5') 하면 G.C 처리 안됨 (영원히 안됨)
 
@@ -177,8 +178,8 @@
 
     ```js
     // 합집합
-    // st1과 st2는 array 타입일때 가정
-    new Set(...st1, ...st2);
+    // st1과 st2가 array 타입일때의 가정
+    new Set([...st1, ...st2]);
 
     // st1과 st2는 set 타입
     // 교집합
@@ -214,7 +215,7 @@
 
   - 인력 없으면 다 못봄
   - 전체 소스 구조 잘 짜기
-  - 만약 10가지 기능 있으면, 핵심이 되는 기능 - sub 기능 등 분리
+  - 만약 10가지 기능 있으면, 핵심이 되는 기능 과 sub 기능 분리
   - 다 짜는 것보다 제대로 핵심이 되는 기능만 짜도 충분함
   - 소스 코드 적은게 오히려 더 좋을 수도 있음
   - 하나라도 제대로 짜는게 제일 중요함! (리팩토링!)
@@ -227,7 +228,7 @@
     - MySQL X Dev API
     - JSON object
     - 형상 관리 어떻게? git?
-  - 기술 관련 질문 별로 없으면 흠...
+  - 면접자에게 기술 관련 질문 별로 없으면 흠...
 
 - Node 관련 질문 예상
 
@@ -269,7 +270,7 @@
       - 아니면 그래요? 이거 아닌가요? 등 말하기
     - 눈 맑은 사람
     - 말은 최대한 적게 하면서 핵심은 잘 말해야 함!
-    - 생각은 빨라야 함
+    - 생각이 빨라야 함
   - 면접관 세 사람 있으면 한 사람만 보면 안되고 다 봐야 함
   - 면접관 뿐만 아니라 면접자들의 이야기도 들어야 함
   - 쫄면 안됨!
@@ -309,7 +310,7 @@
 - 정부 폼 구성
 
   - XML; data (data를 표현하기 위해 나옴)
-    - ex) `<Id>1</Id>
+    - ex) `<Id>1</Id>`
   - XSL (Extensible Stylesheet Language); 화면
     - ex) `<Name font-style="strong"></Name>`
     - XSLT
