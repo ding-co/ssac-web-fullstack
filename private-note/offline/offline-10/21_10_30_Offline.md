@@ -23,7 +23,7 @@
         - 사용자 https:// ~ 접속 => 서버에서 index.html 응답
         - (http => html 받기 위한 약속)
         - index.html 속의 css, js, img 등 다시 주세요 하고 서버에게 요청
-        - 참고) 텔넷 SBM.COM
+        - 참고) 텔넷 sbm.com
           - get HTTP/1.1
           - HTTP 1.1 vs. HTTP 2
             - HTTP 1.1; 하나씩 하나씩 처리됨
@@ -42,7 +42,7 @@
           - DOM 먼저 그려놓은 다음에 css, js 그리는 것이 훨씬 더 빠름
     - HTML 모든 코드들은 cascading (위에서부터 아래로 내려옴)
 
-      - 이미지도 나중에 그려하라고 처리
+      - 이미지도 나중에 그리라고 처리
         - 서버에서 stream
 
     - 화면하고 아무 상관 없는데 defer 걸면 안됨 (runtime 느려짐)
@@ -51,9 +51,9 @@
 
     - async
       - a.js 실행되고 b.js 실행
-      - a load (parsing, 브라우저 실행할 수 있는 바이트 코드 만듦, 평가 -> 실행)
+      - a load (parsing, 브라우저가 실행할 수 있는 바이트 코드 만듦, 평가 -> 실행)
         - 이후 b.js 실행
-      - Bootstrap은 js적으로는 jquery 씀 => jquery가 bootstrap 보다 위에 있으면 됨
+      - Bootstrap은 js적으로는 jQuery 씀 => jQuery가 bootstrap 보다 위에 있으면 됨
 
   - DOM
 
@@ -64,7 +64,7 @@
         - doctype은 선언문 (html declaration)
           - XHTML 기반이면 닫는 태그 없으면 무조건 에러 남
         - `<xml: xxx> </xml>` // 만약 format 다를 때 ex) 정부, 법원 혼인증명서
-          - Name Space에 따라서 data가 달라질 수 있음
+          - NameSpace에 따라서 data가 달라질 수 있음
       - HTML; Tag, attribute, Text/ContentText, comment
         - root element, child element, sibling element
         - Tree 자료구조
@@ -79,7 +79,7 @@
         - ex) class ChromeDocument extends Document {// 메서드 오버라이딩}
         - 미리 구현해 놓은 코드를 브라우저에 심어 놓음 (C로 짜놓든 그건 브라우저 벤더사에 따라 다름)
       - Document 노드 (extends Node // Document <- Element, ...)
-        - Node <- Document <- ELement,...
+        - Node <- Document <- Element,...
         - 합리성 따져서 상속 누구한테 받을지 코드 결정
         - Object <- EventTarget <- Node (노드는 모두 이벤트 가짐)
           - Node <- ElementNode, DocumentNode, Attribute, CharacterData
@@ -89,9 +89,9 @@
       - HTMLCollection / NodeList
         - 유사 배열 객체
         - 둘다 iterable => spread 연산자 사용 가능
-        - getElementById => HTMLCollection
+        - getElementsById => HTMLCollection
         - NodeList
-          - ex) `const {childNodes} = document.getElementById();`
+          - ex) `const {childNodes} = document.getElementsById();`
           - 디스트럭쳐링 사용하기 cf) `const childNodes = document.getElementById.classNodes();`
           - `[...document.getElementById().getElementByTagNames()]`
       - 대부분 querySelector 씀
@@ -99,7 +99,7 @@
         - selector
           - .a (태그 아무거나의 a 클래스 모두 가져옴)
           - div strong (div 자식 중에 strong 태그 모두)
-          - div > strong (div 밑에 있는 바로 그 strong element, 직속 자식, 한세대 차이만 주세요)
+          - div > strong (div 밑에 있는 바로 그 strong element, 직속 자식, 한 세대 차이만 주세요)
           - sibling
             - `+` (바로 뒤 sibling만)
             - `~` (뒤에 있는 것들 중의 sibling)
@@ -132,7 +132,7 @@
           - contains => 갖고 있나? cf) jQuery의 hasClass()
           - classList에 내가 추가하고 삭제한 그 상태 다 저장하기 위해서는 <br/>
             window.getComputedStyle($ele) <br/>
-            (computed: 값이 변경이 일어나는, computed Property, 단방향/양방향 computed Property) <br/>
+            (computed: 값의 변경이 일어나는, computed Property, 단방향/양방향 computed Property) <br/>
             (예전엔 쌍방향 property => observing 가능 <br/>
             하지만 최근엔는 대부분 다 단방향 property)
 
@@ -141,9 +141,9 @@
     ```js
     // DOM Event
 
-    // <button id='btn'>검색</button>
+    // <button id="btn">검색</button>
 
-    // 여기서 런타임 에러 나옴 다 실행 안함 (다시 실행해서 안될 수도 있음)
+    // 여기서 런타임 에러 나오면 다 실행 안함 (처음엔 되었는데 다시 실행해서 안될 수도 있음)
     // 에러 처리 잘해야 함
     const $eles = document.getElementsById('btn');
     const $btn = $eles[0];
@@ -169,7 +169,7 @@
     $btn.onclick = search;
 
     // 방법 2 - 이벤트 리스너 걸 때의 표준 방식
-    // 첫번째 인자: 이벤트 이름, 두번째 인자:
+    // 첫번째 인자: 이벤트 이름, 두번째 인자: 콜백 함수
     $btn.addEventListener('click');
 
     // 만약 $btn 없으면 안걸림
@@ -211,7 +211,7 @@
 
     ```js
     // 정리
-    // 참고) event 위에 event target 이 있었음
+    // 참고) Event 위에 EventTarget 이 있었음
     // Object <- Event <- AnimationEvent, ClipboardEvent, UIEvent
     // UIEvent가 중요함
     // FocusEvent, MouseEvent, KeyboardEvent, InputEvent,...
@@ -238,7 +238,7 @@
     // 만약 idle time이 0.5이상 되었으면 사용자가 다 입력했다고 치고 서버에 호출함
 
     // [구현]
-    // 어떻게 부를지 먼저 짜 놓고 부르는 함수 짜기
+    // 어떻게 부를지 먼저 짜놓고 부르는 함수 짜기
     $inp.addEventListener('change', (event) => {
       // 500ms
       debounce((event) => {
@@ -334,11 +334,11 @@ WeakMap(캐싱용으로 쓴다), node에서 db에 데이터를 가져와서 처�
 
 노드는 스레드가 아닌 process기반, cpu 1개당 1개만 띄울 수 있다.
 
-Redis는 메모리에 올라가서 써서 원체 빠르기 때문에 바쁘지않다.
+Redis는 메모리에 올라가서 써서 원체 빠르기 때문에 바쁘지 않다.
 
 cpu는 노드만 띄우기 때문에 db에서 데이터 읽어와서 처리하는 건 다른 cpu가 필요하다.
 
-처음에 db에서 병목이 생기다가 풀리면 노드에 데이터가 확 왔다가 처리하다가 병목이 새긴다 노드가 바빠진다.
+처음에 db에서 병목이 생기다가 풀리면 노드에 데이터가 확 왔다가 처리하다가 병목이 생긴다, 노드가 바빠진다.
 
 nginx에 사용자가 쌓인다.
 
@@ -360,11 +360,11 @@ localStorage에 변하지 않는 값들을 담아놔야 한다.
 
 레디스에 소켓을 공유해서 다른 노드서버에 들어가도 같이 채팅할 수 있게 된다.
 
-레디스는 key,value모두 스트링이다. json.parse로 json을 스트링으로 변환해준다.
+레디스는 key, value모두 스트링이다. json.parse로 json을 스트링으로 변환해준다.
 
 ---
 
-fn(나, 친구)()() // 중국집, 테이블, 탕수육 | 중국집 대신에 이태리 레스토랑 을 가면 테이블과 요리는 똑같다.
+fn(나, 친구)()() // 중국집, 테이블, 탕수육 | 중국집 대신에 이태리 레스토랑을 가면 테이블과 요리는 똑같다.
 
 다크 테마, 밝은 테마 설정하려면 최상위만 바꾸면 된다.
 
@@ -380,17 +380,17 @@ const { theme } = fn()()() // 어디선가 theme을 return하는 게 있다.
 
   - 함수 커링
     - ex1) 중국집 - 테이블 - 탕수육
-      - 스코프 서로 다를 때 중국집 함수의 종업원 부르고 싶음 => 클로저 사용해야 함
+      - 스코프 서로 다를 때 테이블 함수에서 중국집 함수의 종업원 부르고 싶음 => 클로저 사용해야 함
       - 클로저 (객치 지향 위해 쓰는 다형성 느낌 비슷)
       - 메뉴판만 다르면 재사용하면 됨
+    - ex2) 테마 처리 함수
       - cf) `const {theme} = fn(중국집, gn(테이블, kn(탕수육)))`
-    - ex2) 테마 처리 함수 -
 
 - W3C, MDN 등 레퍼런스 및 CSS 엔진 지식, ... 더 깊게 공부
 
   - 리액트 같은 프레임워크 만들기 위해서 필요
 
-- c# 명령형 프로그래밍 언어도 괜찮음 cf) .NET Core, F# (함수형)
+- C# 명령형 프로그래밍 언어도 괜찮음 cf) .NET Core, F# (함수형)
 
 - jQuery
 
@@ -402,17 +402,17 @@ const { theme } = fn()()() // 어디선가 theme을 return하는 게 있다.
 
 - ex) 서버
 
-  - Tomcat; REQUEST 하나가 THREAD 하나 만듦, 쓰레드 하나가 또 다른 스레드 하나 만듦 (자바가 쓰레드 기반, CPU는 한장)
+  - Tomcat; request 하나가 thread 하나 만듦, 쓰레드 하나가 또 다른 쓰레드 하나 만듦 (자바가 쓰레드 기반, CPU는 한장)
     - SELECT 끝나고 UPDATE 가능하고 ~
-    - 쓰레드 다른 놈 하나 더 만들었더니 서로 쓰레드가 영향주면 문제 생김 <br/> (하나 쓰레드에서 다른 쓰레드 호출하면 안됨, 원자성, synchronize 걸어놓음)
+    - 쓰레드 다른 놈 하나 더 만들었더니 서로 쓰레드가 영향 주면 문제 생김 <br/> (하나의 쓰레드에서 다른 쓰레드 호출하면 안됨, 원자성, synchronize 걸어놓음)
     - 사용자 폭주하면 queue에 계속 막힘
     - ex) 혼자 인형 눈알 하나 붙이고 그 다음 공 만들고 ~
   - Node
     - Non-block IO
       - select 하면서 다른 Update 동시에 가능
-      - 각각 DB 쿼리 처리 여러 프로세스에게 업무 지정
+      - 각각 DB 쿼리 처리를 여러 프로세스에게 업무 지정
       - 바로 사용자에게 화면 단으로 응답하고 그 다음 DB 처리해도 됨
-      - RunQueue (실행 대기자들, 여기에 쌓이지 않고 바로바로 비움)
+      - RunQueue (실행 대기자들, 여기에 쌓이지 않고 바로 바로 비움)
       - ex) 10명 인형 눈알 하나씩 붙이고 그 다음 각 공 만들어 ~ (훨씬 빠름)
   - CPU 최소 2장은 되어야 함.. 하지만 무료 서버는 한장...
 
@@ -426,7 +426,7 @@ const { theme } = fn()()() // 어디선가 theme을 return하는 게 있다.
 
   - a -> b -> c 이렇게 주는 방식이 있고
   - abc 한번에 주는 방식도 있음
-  - 우선 구멍 숭숭 뚫린 상태로 전달 (이미지 흐릿 -> 선명)\
+  - 우선 구멍 숭숭 뚫린 상태로 전달 (이미지 흐릿 -> 선명)
   - 상품 이미지 위에서부터 아래로 천천히도 있긴 함
   - 참고) 하얗게 나오다가 이미지가 펑 나오면 답답함
 
@@ -449,12 +449,12 @@ const { theme } = fn()()() // 어디선가 theme을 return하는 게 있다.
 - CD; 자석판 (N, S극 / +1 0)
 
   - Head Sector; 각 페이지 어느 위치에 있는지 지정
-  - LP판의 암 ex) HDD
+  - LP판의 ARM ex) HDD
 
 - 서버 통신
 
   - 동시에 받을 때 경우 계산 어떻게?
-    - nginx 큐 사이즈 미리 정함 (넉넉하게) + 한번에 실행되는 개수 (ex. cpu 10장 처리 가능 개수)
+    - nginx 큐 사이즈 (넉넉하게) + 한번에 실행되는 개수 정함 (ex. cpu 10장 처리 가능 개수)
       - ex) 식당 - 일단 앉으세요, 종업원은 한명씩 갖다 드림 (요리 시간은 기다려야 함)
       - 종업원
     - node
@@ -539,8 +539,6 @@ const { theme } = fn()()() // 어디선가 theme을 return하는 게 있다.
 - 쓰레드는 사실 동기적?
 
 ### _개인_
-
-- 앞 부분 필기 참조 양해 부탁
 
 - TCP/IP 통신
 
