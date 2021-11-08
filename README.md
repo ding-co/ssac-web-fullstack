@@ -172,6 +172,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#4 - 변수와 함수의 호이스팅이란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack04.md)
 
+> - [x] [풀스택#12 - 클래스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack12.md)
+
 </details>
 
 <br/>
@@ -196,6 +198,10 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [x] [Tip & Talk 08 - Strict mode, ESLint etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk08.md)
 
 > - [x] [Tip & Talk 09 - this etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk09.md)
+
+> - [ ] [Tip & Talk 10 - 실행 컨텍스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk10.md)
+
+> - [ ] [Tip & Talk 11 - 클로저](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk11.md)
 
 </details>
 
