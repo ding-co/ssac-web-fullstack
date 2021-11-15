@@ -174,6 +174,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#12 - 클래스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack12.md)
 
+> - [x] [풀스택#13 - 배열1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack13.md)
+
 </details>
 
 <br/>
@@ -256,9 +258,11 @@ SSAC Web Full-Stack 2기 (예습&복습)
 <details>
   <summary> <strong> [Assignments] </strong> </summary>
 
-> - [x] [Week 02 Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
+> - [x] [Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
 
-> - [x] [Week 03 Assignment - JavaScript](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)
+> - [x] [Assignment - JavaScript01](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)
+
+> - [x] [Assignment - JavaScript02](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/compose_es5/ding-co.md)
 
 </details>
 
