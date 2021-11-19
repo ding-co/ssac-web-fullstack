@@ -174,7 +174,11 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#12 - 클래스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack12.md)
 
-> - [x] [풀스택#13 - 배열1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack13.md)
+> - [ ] [풀스택#13 - 배열1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack13.md)
+
+> - [ ] [풀스택#14 - 배열2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack14.md)
+
+> - [x] [풀스택#15 - Number & Math](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack15.md)
 
 </details>
 
