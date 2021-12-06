@@ -190,6 +190,25 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 </details>
 
+<details>
+  <summary> <strong> [Node & Vue.js] </strong> </summary>
+
+> - [ ] [node & vue.js #1 - node.js 시작하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue01.md)
+
+> - [ ] [node & vue.js #2 - mysql 모듈](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue02.md)
+
+> - [ ] [node & vue.js #3 - socket.io 채팅 서비스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue03.md)
+
+> - [ ] [node & vue.js #4 - vue.js 시작하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue04.md)
+
+> - [ ] [node & vue.js #5 - vue.js 연습](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue05.md)
+
+> - [ ] [node & vue.js #6 - Router, EventBus, Lodash, Axios, Mixin](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue06.md)
+
+> - [ ] [node & vue.js #7 - vue.js 설문 시스템](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue07.md)
+
+</details>
+
 <br/>
 
 <details>
@@ -205,25 +224,27 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 05 - SW 공학 옵저버 패턴, MVC 패턴](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk05.md)
 
-> - [ ] [Tip & Talk 06 - 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk06.md)
+> - [x] [Tip & Talk 06 - 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk06.md)
 
-> - [ ] [Tip & Talk 07 - 오버라이딩, 디스트럭쳐링 etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk07.md)
+> - [ ] [Tip & Talk 07 - ](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk07.md)
 
 > - [x] [Tip & Talk 08 - WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk08.md)
 
-> - [x] [Tip & Talk 09 - 콜백함수란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk09.md)
+> - [ ] [Tip & Talk 09 - 콜백함수란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk09.md)
 
 > - [ ] [Tip & Talk 10 - Object의 깊은복사 vs. 얕은 복사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk10.md)
 
-> - [ ] [Tip & Talk 11 - Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk11.md)
+> - [x] [Tip & Talk 11 - Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk11.md)
 
-> - [ ] [Tip & Talk 12 - 개발자 취업](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk12.md)
+> - [ ] [Tip & Talk 12 - 개발자 취업 All-In-One](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk12.md)
 
-> - [ ] [Tip & Talk 13 - 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk13.md)
+> - [x] [Tip & Talk 13 - 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk13.md)
 
-> - [ ] [Tip & Talk 14 - NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk14.md)
+> - [x] [Tip & Talk 14 - NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk14.md)
 
-> - [ ] [Tip & Talk 15 - 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk15.md)
+> - [x] [Tip & Talk 15 - 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk15.md)
+
+> - [ ] [Tip & Talk 16 - let 호이스팅](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk16.md)
 
 </details>
 
@@ -240,6 +261,37 @@ SSAC Web Full-Stack 2기 (예습&복습)
   <summary> <strong> [특강] </strong> </summary>
 
 > - [x] [2022 카카오 신입 개발자 블라인드 채용](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Special/Kakao-2022.md)
+
+> - [ ] [숫자야구게임 풀이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Special/Baseball-game.md)
+
+</details>
+
+<details>
+  <summary> <strong> [Etc.] </strong> </summary>
+
+> - [ ] [컴퓨터 구조](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Architecture.md)
+
+> - [ ] [Qunit - JS 단위 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Qunit.md)
+
+> - [ ] [JS - ES6 주요 기능](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/ES6.md)
+
+> - [ ] [MySQL - DB 이관](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/DB-migration.md)
+
+> - [ ] [웹개발 01 - 웹과 인터넷의 이해](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web01.md)
+
+> - [ ] [웹개발 02 - HTML 한방에 정리하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web02.md)
+
+> - [ ] [웹개발 03 - CSS 한방에 정리하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web03.md)
+
+> - [ ] [웹개발 04.1 - JS 한방에 정리하기 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web04-1.md)
+
+> - [ ] [웹개발 04.2 - JS 한방에 정리하기 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web04-2.md)
+
+> - [ ] [웹개발 05.1 - jQuery 한방에 정리하기 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web05-1.md)
+
+> - [ ] [웹개발 05.2 - jQuery 한방에 정리하기 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web05-2.md)
+
+> - [ ] [웹개발 06 - Handlebars](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web06.md)
 
 </details>
 
