@@ -221,14 +221,23 @@ createReadStream('', { highWaterMark: 10 });
 - 일유저
 - 사용자 많을 때 nextTick() 쓸 때와 안쓸 때 차이 큼
 - streaming vs. buffering
+
   - streaming
   - buffering
+
     - 8192B 사이즈대로 넘어가서 취합됨
     - HTTP가 해줌
     - chunk (하나의 묶음 단위, 데이터 하나의 조각, 64K <- 노드에서는 chunk size 고정되어 있음)
     - buffer size는 OS마다 다를 수 있음
     - MAX_LENGTH (그냥 버퍼 사이즈)
     - MAX_STRING_LENGTH (string 버퍼 사이즈)
+
+    ```js
+    const buffer = require('buffer');
+
+    console.log(buffer.constants.MAX_LENGTH / (1024 * 1024));
+    console.log(buffer.constants.MAX_STRING_LENGTH / (1024 * 1024));
+    ```
 
 ### [Curiosity]
 

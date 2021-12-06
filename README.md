@@ -170,7 +170,9 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#3 - JS 변수, 상수, 데이터 타입, 호이스팅, 스코프 체인](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack03.md)
 
-> - [x] [풀스택#4 - 변수와 함수의 호이스팅이란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack04.md)
+> - [ ] [풀스택#4 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack04.md)
+
+> - [x] [풀스택#5 - 변수와 함수의 호이스팅이란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack05.md)
 
 > - [x] [풀스택#12 - 클래스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack12.md)
 
@@ -179,6 +181,12 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [풀스택#14 - 배열2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack14.md)
 
 > - [x] [풀스택#15 - Number & Math](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack15.md)
+
+> - [ ] [풀스택#16 - Date](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack16.md)
+
+> - [ ] [풀스택#17 - string, 정규식](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack17.md)
+
+> - [ ] [풀스택#18 - Symbol (Enum, Iterator)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack18.md)
 
 </details>
 
@@ -197,17 +205,25 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 05 - SW 공학 옵저버 패턴, MVC 패턴](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk05.md)
 
-> - [ ] [Tip & Talk 06 - OOP ~ TS interface](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk06.md)
+> - [ ] [Tip & Talk 06 - 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk06.md)
 
 > - [ ] [Tip & Talk 07 - 오버라이딩, 디스트럭쳐링 etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk07.md)
 
-> - [x] [Tip & Talk 08 - Strict mode, ESLint etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk08.md)
+> - [x] [Tip & Talk 08 - WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk08.md)
 
-> - [x] [Tip & Talk 09 - this etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk09.md)
+> - [x] [Tip & Talk 09 - 콜백함수란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk09.md)
 
-> - [ ] [Tip & Talk 10 - 실행 컨텍스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk10.md)
+> - [ ] [Tip & Talk 10 - Object의 깊은복사 vs. 얕은 복사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk10.md)
 
-> - [ ] [Tip & Talk 11 - 클로저](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk11.md)
+> - [ ] [Tip & Talk 11 - Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk11.md)
+
+> - [ ] [Tip & Talk 12 - 개발자 취업](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk12.md)
+
+> - [ ] [Tip & Talk 13 - 실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk13.md)
+
+> - [ ] [Tip & Talk 14 - NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk14.md)
+
+> - [ ] [Tip & Talk 15 - 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk15.md)
 
 </details>
 
@@ -227,47 +243,12 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 </details>
 
-<details>
-  <summary> <strong> [Extra Explanation] </strong> </summary>
-
-> - [x] [원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra01.md)
-
-> - [x] [WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra02.md)
-
-> - [ ] [콜백함수란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra03.md)
-
-> - [ ] [let 호이스팅](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra04.md)
-
-> - [ ] [Object의 깊은 복사 vs. 얕은 복사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Extra/Extra05.md)
-
-</details>
-
 #
 
-## Offline (SSAC) 👨‍💻
-
-<details>
-  <summary> <strong> [Absentee] </strong> </summary>
-
-> - [x] [Daemon, Packet, Charset, SSH, HTTPS 그리고 라떼는?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline01.md)
-
-> - [x] [실무 스터디 팁, 인터넷 원리, 네트워크, 도커, 클라우드](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline02.md)
-
-> - [x] [NCP 접속용 IP와 공인 IP의 차이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline03.md)
-
-> - [x] [프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Offline/Offline04.md)
-
-</details>
-
-<details>
-  <summary> <strong> [Assignments] </strong> </summary>
+## Assignments (SSAC) 👨‍💻
 
 > - [x] [Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
 
 > - [x] [Assignment - JavaScript01](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)
 
 > - [x] [Assignment - JavaScript02](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/compose_es5/ding-co.md)
-
-</details>
-
-#

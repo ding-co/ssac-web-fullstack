@@ -448,7 +448,7 @@
   - 창업
     - 지분이 많이 분리되어 있으면 사실 투자 많이 받기 힘듦
 
--
+- useLayoutEffect() 할 때 reflow 앞, useEffect()할 때 repaint 앞
 
 ### [과제]
 
