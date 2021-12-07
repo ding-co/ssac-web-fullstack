@@ -188,6 +188,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [풀스택#18 - Symbol (Enum, Iterator)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack18.md)
 
+> - [ ] [풀스택#19 - 스프레드, 디스트럭쳐링](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack19.md)
+
 </details>
 
 <details>
@@ -220,7 +222,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 03 - null과 undefined 값의 메모리 할당](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk03.md)
 
-> - [ ] [Tip & Talk 04 - JS의 역사와 프로그래밍 언어의 트렌드와 역사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk04.md)
+> - [x] [Tip & Talk 04 - JS의 역사와 프로그래밍 언어의 트렌드와 역사](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk04.md)
 
 > - [x] [Tip & Talk 05 - SW 공학 옵저버 패턴, MVC 패턴](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk05.md)
 
