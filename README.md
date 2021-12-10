@@ -301,8 +301,10 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 ## Assignments (SSAC) 👨‍💻
 
-> - [x] [Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week02_08-14/ding-co.md)
+> - [x] [Assignment - Shell Script](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/shell-script/ding-co.md)
 
-> - [x] [Assignment - JavaScript01](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/ding-co.md)
+> - [x] [Assignment - JavaScript 01 - number baseball game](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/number-baseball-game/ding-co.md)
 
-> - [x] [Assignment - JavaScript02](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/compose_es5/ding-co.md)
+> - [x] [Assignment - JavaScript 02 - compose function](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/compose/ding-co.md)
+
+> - [x] [Assignment - Node.js - singleton pattern](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/singleton/ding-co.md)

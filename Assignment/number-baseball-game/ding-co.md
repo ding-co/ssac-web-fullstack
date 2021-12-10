@@ -27,12 +27,12 @@
 
 ### _src_
 
-- [index.html](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/index.html)
+- [index.html](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/number-baseball-game/src/index.html)
 
-- [css/styles.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/styles.css)
+- [css/styles.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/number-baseball-game/src/css/styles.css)
 
-- [css/reset.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/reset.css)
+- [css/reset.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/number-baseball-game/src/css/reset.css)
 
-- [css/screens/baseball.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/css/screens/baseball.css)
+- [css/screens/baseball.css](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/number-baseball-game/src/css/screens/baseball.css)
 
-- [js/baseball.js](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/week03_08-21/src/js/baseball.js)
+- [js/baseball.js](https://github.com/ding-co/ssac-web-fullstack/blob/main/Assignment/number-baseball-game/src/js/baseball.js)
