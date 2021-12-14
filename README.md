@@ -232,7 +232,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 06 - 원시타입이 불변성인 이유](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk06.md)
 
-> - [ ] [Tip & Talk 07 - ](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk07.md)
+> - [ ] [Tip & Talk 07 - 숫자야구 게임 풀이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk07.md)
 
 > - [x] [Tip & Talk 08 - WAS와 WS의 차이점](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk08.md)
 
