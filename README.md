@@ -192,6 +192,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [풀스택#20 - Set, Map](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack20.md)
 
+> - [ ] [풀스택#21 - 브라우저 렌더링, HTTP](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack21.md)
+
 </details>
 
 <details>
