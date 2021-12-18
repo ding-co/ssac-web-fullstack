@@ -107,11 +107,11 @@
 - ESLint, Prettier 중요한 Extension
 - ESLint setting 필요
 - JS Engine 이해 필요
-- DOMContentLoaded (jQuery의 document.ready 같은 것임)
+- DOMContentLoaded (jQuery의 document.ready)
 - immutable (스스로 값을 바꿀 수 없음, 바깥에서 값을 변경해줘야 함) <br/>
   mutable (object 내에서 스스로 바꿀 수 있음)
 - [], {}, 1, "false" => 모두 true <br/>
-  '', NaN, null, 0 => 모두 false
+  '', NaN, null, 0, undefined => 모두 false
 
 #
 
