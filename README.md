@@ -166,13 +166,25 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#1 - JS 제대로 배우기 소개](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack01.md)
 
-> - [ ] [풀스택#2 - JS VSCode 세팅, 유용한 Extension 설치, 단축키](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack02.md)
+> - [x] [풀스택#2 - JS VSCode 세팅, 유용한 Extension 설치, 단축키](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack02.md)
 
 > - [x] [풀스택#3 - JS 변수, 상수, 데이터 타입, 호이스팅, 스코프 체인](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack03.md)
 
-> - [ ] [풀스택#4 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack04.md)
+> - [x] [풀스택#4 - 함수](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack04.md)
 
 > - [x] [풀스택#5 - 변수와 함수의 호이스팅이란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack05.md)
+
+> - [ ] [풀스택#6 - OOP, TS의 인터페이스 etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack06.md)
+
+> - [ ] [풀스택#7 - 함수의 모든 것](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack07.md)
+
+> - [x] [풀스택#8 - Strict mode 관련 지식](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack08.md)
+
+> - [x] [풀스택#9 - 컴파일/인터프리터/도메인/실행 컨텍스트/스코프/this](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack09.md)
+
+> - [ ] [풀스택#10 - 실행 코드로 알아보는 실행 컨텍스트 동작 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack10.md)
+
+> - [ ] [풀스택#11 - 클로저](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack11.md)
 
 > - [x] [풀스택#12 - 클래스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack12.md)
 
@@ -251,6 +263,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [x] [Tip & Talk 15 - 프로그래밍 기초 이론 공부 순서와 요령](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk15.md)
 
 > - [ ] [Tip & Talk 16 - let 호이스팅](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk16.md)
+
+> - [x] [Tip & Talk 17 - Nginx Node 처리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk17.md)
 
 </details>
 
