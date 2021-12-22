@@ -174,9 +174,9 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#5 - 변수와 함수의 호이스팅이란?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack05.md)
 
-> - [ ] [풀스택#6 - OOP, TS의 인터페이스 etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack06.md)
+> - [x] [풀스택#6 - OOP, TS의 인터페이스 etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack06.md)
 
-> - [ ] [풀스택#7 - 함수의 모든 것](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack07.md)
+> - [x] [풀스택#7 - 함수의 모든 것](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack07.md)
 
 > - [x] [풀스택#8 - Strict mode 관련 지식](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack08.md)
 
@@ -205,6 +205,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [풀스택#20 - Set, Map](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack20.md)
 
 > - [ ] [풀스택#21 - 브라우저 렌더링, HTTP](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack21.md)
+
+> - [ ] [풀스택#22 - HTML & DOM](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack22.md)
 
 </details>
 
