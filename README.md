@@ -268,6 +268,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 17 - Nginx Node 처리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk17.md)
 
+> - [x] [Tip & Talk 18 - 성장하는 개발자의 직장 내 처세술](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk18.md)
+
 </details>
 
 <details>
