@@ -208,6 +208,10 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [풀스택#22 - HTML & DOM](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack22.md)
 
+> - [ ] [풀스택#23 - DOM events](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack23.md)
+
+> - [ ] [풀스택#24 - Debounce & Throttle](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack24.md)
+
 </details>
 
 <details>
