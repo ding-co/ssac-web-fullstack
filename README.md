@@ -182,9 +182,9 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#9 - 컴파일/인터프리터/도메인/실행 컨텍스트/스코프/this](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack09.md)
 
-> - [ ] [풀스택#10 - 실행 코드로 알아보는 실행 컨텍스트 동작 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack10.md)
+> - [x] [풀스택#10 - 실행 코드로 알아보는 실행 컨텍스트 동작 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack10.md)
 
-> - [ ] [풀스택#11 - 클로저](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack11.md)
+> - [x] [풀스택#11 - 클로저](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack11.md)
 
 > - [x] [풀스택#12 - 클래스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack12.md)
 
