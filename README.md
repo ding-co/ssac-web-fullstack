@@ -274,6 +274,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [Tip & Talk 18 - 성장하는 개발자의 직장 내 처세술](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk18.md)
 
+> - [ ] [Tip & Talk 19 - 2022 개발 트렌드 및 학습](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk19.md)
+
 </details>
 
 <details>
@@ -299,11 +301,13 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [컴퓨터 구조](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Architecture.md)
 
-> - [ ] [Qunit - JS 단위 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Qunit.md)
-
 > - [ ] [JS - ES6 주요 기능](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/ES6.md)
 
+> - [ ] [Qunit - JS 단위 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Qunit.md)
+
 > - [ ] [MySQL - DB 이관](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/DB-migration.md)
+
+> - [ ] [Gabia에 웹 서버 도메인 설정](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Gabia-domain.md)
 
 > - [ ] [웹개발 01 - 웹과 인터넷의 이해](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web01.md)
 
