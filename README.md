@@ -214,25 +214,6 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 </details>
 
-<details>
-  <summary> <strong> [Node & Vue.js] </strong> </summary>
-
-> - [ ] [node & vue.js #1 - node.js 시작하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue01.md)
-
-> - [ ] [node & vue.js #2 - mysql 모듈](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue02.md)
-
-> - [ ] [node & vue.js #3 - socket.io 채팅 서비스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue03.md)
-
-> - [ ] [node & vue.js #4 - vue.js 시작하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue04.md)
-
-> - [ ] [node & vue.js #5 - vue.js 연습](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue05.md)
-
-> - [ ] [node & vue.js #6 - Router, EventBus, Lodash, Axios, Mixin](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue06.md)
-
-> - [ ] [node & vue.js #7 - vue.js 설문 시스템](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Node&Vue/Node&Vue07.md)
-
-</details>
-
 <br/>
 
 <details>
@@ -293,37 +274,6 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [x] [2022 카카오 신입 개발자 블라인드 채용](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Special/Kakao-2022.md)
 
 > - [ ] [숫자야구게임 풀이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Special/Baseball-game.md)
-
-</details>
-
-<details>
-  <summary> <strong> [Etc.] </strong> </summary>
-
-> - [ ] [컴퓨터 구조](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Architecture.md)
-
-> - [ ] [JS - ES6 주요 기능](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/ES6.md)
-
-> - [ ] [Qunit - JS 단위 테스트](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Qunit.md)
-
-> - [ ] [MySQL - DB 이관](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/DB-migration.md)
-
-> - [ ] [Gabia에 웹 서버 도메인 설정](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Gabia-domain.md)
-
-> - [ ] [웹개발 01 - 웹과 인터넷의 이해](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web01.md)
-
-> - [ ] [웹개발 02 - HTML 한방에 정리하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web02.md)
-
-> - [ ] [웹개발 03 - CSS 한방에 정리하기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web03.md)
-
-> - [ ] [웹개발 04.1 - JS 한방에 정리하기 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web04-1.md)
-
-> - [ ] [웹개발 04.2 - JS 한방에 정리하기 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web04-2.md)
-
-> - [ ] [웹개발 05.1 - jQuery 한방에 정리하기 1](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web05-1.md)
-
-> - [ ] [웹개발 05.2 - jQuery 한방에 정리하기 2](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web05-2.md)
-
-> - [ ] [웹개발 06 - Handlebars](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Etc/Web06.md)
 
 </details>
 
