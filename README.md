@@ -257,6 +257,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [Tip & Talk 19 - 2022 개발 트렌드 및 학습](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk19.md)
 
+> - [ ] [Tip & Talk 20 - 신입 개발자의 마음가짐](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk20.md)
+
 </details>
 
 <details>
