@@ -194,7 +194,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#15 - Number & Math](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack15.md)
 
-> - [ ] [풀스택#16 - Date](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack16.md)
+> - [x] [풀스택#16 - Date](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack16.md)
 
 > - [ ] [풀스택#17 - string, 정규식](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack17.md)
 
@@ -211,6 +211,10 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [풀스택#23 - DOM events](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack23.md)
 
 > - [ ] [풀스택#24 - Debounce & Throttle](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack24.md)
+
+> - [ ] [풀스택#25 - 비동기](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack25.md)
+
+> - [ ] [풀스택#26 - Generator, Async & Await, 에러 처리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack26.md)
 
 </details>
 
