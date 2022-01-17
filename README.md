@@ -221,6 +221,15 @@ SSAC Web Full-Stack 2기 (예습&복습)
 <br/>
 
 <details>
+  <summary> <strong> [React] </strong> </summary>
+
+> - [x] [리액트#1 - 리액트 이론](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React01.md)
+
+</details>
+
+<br/>
+
+<details>
   <summary> <strong> [Tip & Talk] </strong> </summary>
 
 > - [x] [Tip & Talk 01 - 왜 풀스택인가? (개발자 커리어 패스)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk01.md)
