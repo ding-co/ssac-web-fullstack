@@ -196,9 +196,9 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#16 - Date](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack16.md)
 
-> - [ ] [풀스택#17 - string, 정규식](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack17.md)
+> - [x] [풀스택#17 - string, 정규식](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack17.md)
 
-> - [ ] [풀스택#18 - Symbol (Enum, Iterator)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack18.md)
+> - [x] [풀스택#18 - Symbol (Enum, Iterator)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack18.md)
 
 > - [ ] [풀스택#19 - 스프레드, 디스트럭쳐링](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack19.md)
 
