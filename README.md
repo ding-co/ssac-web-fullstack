@@ -200,11 +200,11 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#18 - Symbol (Enum, Iterator)](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack18.md)
 
-> - [ ] [풀스택#19 - 스프레드, 디스트럭쳐링](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack19.md)
+> - [x] [풀스택#19 - 스프레드, 디스트럭쳐링](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack19.md)
 
-> - [ ] [풀스택#20 - Set, Map](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack20.md)
+> - [x] [풀스택#20 - Set, Map](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack20.md)
 
-> - [ ] [풀스택#21 - 브라우저 렌더링, HTTP](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack21.md)
+> - [x] [풀스택#21 - 브라우저 렌더링, HTTP](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack21.md)
 
 > - [ ] [풀스택#22 - HTML & DOM](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack22.md)
 
