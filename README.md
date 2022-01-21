@@ -206,7 +206,7 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [풀스택#21 - 브라우저 렌더링, HTTP](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack21.md)
 
-> - [ ] [풀스택#22 - HTML & DOM](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack22.md)
+> - [x] [풀스택#22 - HTML & DOM](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack22.md)
 
 > - [ ] [풀스택#23 - DOM events](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/JavaScript-full-stack/JavaScript-full-stack23.md)
 
@@ -271,6 +271,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [Tip & Talk 19 - 2022 개발 트렌드 및 학습](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk19.md)
 
 > - [ ] [Tip & Talk 20 - 신입 개발자의 마음가짐](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk20.md)
+
+> - [x] [Tip & Talk 21 - user agent와 다양한 디바이스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk21.md)
 
 </details>
 
