@@ -1,11 +1,14 @@
-### {풀스택} JavaScript 23강 - DOM events
+# {풀스택} JavaScript 23강 - DOM events
 
-### _DOM events_
+## _React의 이벤트 처리_
+
+## _DOM events_
 
 #
 
 ### [Note]
 
+- 컴포넌트; HTML의 한 뭉치
 -
 
 #
