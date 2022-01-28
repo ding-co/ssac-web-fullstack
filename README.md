@@ -225,7 +225,6 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [리액트#1 - 리액트 이론](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React01.md)
 
-
 > - [x] [리액트#2 - SPA/CSR/SSR/SSG](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React02.md)
 
 </details>
@@ -285,6 +284,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [x] [책 소개 - 프로그래밍 공부는 책으로 하자?](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Book.md)
 
 > - [ ] [책 소개 - 모던 자바스크립트 Deep Dive 1부](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Deep-dive01.md)
+
+> - [ ] [책 소개 - 리눅스 핵심 레퍼런스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Linux.md)
 
 </details>
 
