@@ -149,11 +149,11 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 <br/>
 
-> - [ ] [풀스택#27 Git 실무 01 - rebase, fork & pull request etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack27.md)
+> - [x] [풀스택#27 Git 실무 01 - rebase, fork & pull request etc.](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack27.md)
 
-> - [ ] [풀스택#28 Git 실무 02 - Git Flow 개념 및 실제 사례](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack28.md)
+> - [x] [풀스택#28 Git 실무 02 - Git Flow 개념 및 실제 사례](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack28.md)
 
-> - [ ] [풀스택#29 Git 실무 03 - Git Trouble Shooting](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack29.md)
+> - [x] [풀스택#29 Git 실무 03 - Git Trouble Shooting](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Git&Github/Git&Github-full-stack/Git&Github-full-stack29.md)
 
 <br/>
 
@@ -227,6 +227,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [리액트#2 - SPA/CSR/SSR/SSG](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React02.md)
 
+> - [x] [리액트#3 - React 작동 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React03.md)
+
 </details>
 
 <br/>
@@ -275,6 +277,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 > - [ ] [Tip & Talk 20 - 신입 개발자의 마음가짐](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk20.md)
 
 > - [x] [Tip & Talk 21 - user agent와 다양한 디바이스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk21.md)
+
+> - [ ] [Tip & Talk 22 - 개발자 전성시대 명과 암](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk22.md)
 
 </details>
 
