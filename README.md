@@ -291,6 +291,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [책 소개 - 리눅스 핵심 레퍼런스](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Linux.md)
 
+> - [ ] [책 소개 - 알고리즘](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Book/Algorithm.md)
+
 </details>
 
 <details>
