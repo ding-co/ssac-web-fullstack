@@ -229,6 +229,12 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [x] [리액트#3 - React 작동 원리](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React03.md)
 
+> - [ ] [리액트#4 - 커링과 합성](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React04.md)
+
+> - [ ] [리액트#5 - 커링과 합성 풀이](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React05.md)
+
+> - [ ] [리액트#6 - JSX](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/JavaScript/React/React06.md)
+
 </details>
 
 <br/>
