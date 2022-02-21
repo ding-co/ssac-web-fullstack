@@ -280,6 +280,8 @@ SSAC Web Full-Stack 2기 (예습&복습)
 
 > - [ ] [Tip & Talk 22 - 개발자 전성시대 명과 암](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk22.md)
 
+> - [ ] [Tip & Talk 23 - 기술 스택 선정](https://github.com/ding-co/ssac-web-fullstack/blob/main/Note/Tip&Talk/Tip&Talk23.md)
+
 </details>
 
 <details>
